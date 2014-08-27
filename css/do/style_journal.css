@@ -1,0 +1,27 @@
+
+@import url(../../css/do/style_journalmain.css);
+
+
+/*фотки класса и описание*/
+div.grClass{float:left;border-bottom:1px solid #b7b7b7;width:100%;}
+
+div.grClassInfo{float:left;width:70%;}
+div.grClassName{float:left;width:100%;}
+.grClassName span{margin:0px 0px 0 10px;font-weight: bold;color:#000;}
+
+div.grClassOptions{float:left;width:100%;}
+.grClassOptions span{margin:0;}
+.grClassOptions a{margin:0 0 0 10px;}
+span.optvalue{margin:0px 0 0 10px;}
+
+div.grClassPhoto{float:left;width:30%;margin-bottom:5px;}
+.grClassPhoto img{margin:5px;width:149px;height:105px;float:right;}
+/**/
+
+div.subjects{padding-bottom: 10px;}
+ul.sub li{color: #8eb4e3;width:100%;}
+ul.sub{padding:0;margin-right: 15px ;list-style:disc inside; float:left;float: left;width:203px; list-style-position: outside;}
+td.forH , td:hover.forH{color: #fff; background: rgb(97, 148, 191)}
+.sub a:hover, .monthes a:hover{
+    color: #7093bf;
+}

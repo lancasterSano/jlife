@@ -1,0 +1,38 @@
+/*
+                        if($time2!='null'){
+                                 $DB->query(QS::$org8,$idProfileAuth,$id,$name,$text,$time1,$time2,'1','0');
+                                 $time=$DB->getAll(QS::$org4,$idProfileAuth,substr($time1,0,10).' 00:00:00',$time1);
+                                            for($i=0;$i<count($time);$i++){
+                                                if($time[$i][id]==$id){
+                                                    if($time[$i][detatimestart]>$time[$i-1][detatimestart]&&$time[$i][datetimefinish]<$time[$i-1][datetimefinish]){$DB->query(QS::$org10,$idProfileAuth,$time[$i-1][id],$id);break;}
+                                                    elseif($time[$i-1][id_par]!=0&&$time[$i][detatimestart]<$time[$i-1][detatimestart]&&$time[$i][datetimefinish]>$time[$i-1][datetimefinish]){$id_par=$time[$i-1][id];
+                                                        for ($j=0; $j < count($time) ; $j++) { 
+                                                            if($time[$j][id]==$id_par){
+                                                                 if($time[$i][detatimestart]>$time[$j][detatimestart]&&$time[$i][datetimefinish]<$time[$j][datetimefinish]){$DB->query(QS::$org10,$idProfileAuth,$time[$j][id],$id);}
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                                $msg='Задача успешно добавлена!'; 
+                                        
+                                           
+                        }
+                        elseif($time2=='null'){$DB->query(QS::$org9,$idProfileAuth,$id,$name,$text,$time1,'1','0');
+                               $time=$DB->getAll(QS::$org4,$idProfileAuth,substr($time1,0,10).' 00:00:00',$time1);
+                                for($i=0;$i<count($time);$i++){
+                                    if($time[$i][id]==$id){
+                                        if($time[$i][detatimestart]>$time[$i-1][detatimestart]&&$time[$i][detatimestart]<$time[$i-1][datetimefinish]){$DB->query(QS::$org10,$idProfileAuth,$time[$i-1][id],$id);}
+                                        elseif($time[$i-1][id_par]!=0&&$time[$i][detatimestart]<$time[$i-1][detatimestart]){$id_par=$time[$i-1][id];
+                                            for ($j=0; $j < count($time) ; $j++) { 
+                                                if($time[$j][id]==$id_par){
+                                                     if($time[$i][detatimestart]>$time[$j][detatimestart]){$DB->query(QS::$org10,$idProfileAuth,$time[$j][id],$id_par);}
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                $msg='Задача успешно добавлена!';
+
+                        }
+                    */

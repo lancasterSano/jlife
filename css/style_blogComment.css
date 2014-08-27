@@ -1,0 +1,92 @@
+
+
+.mainfield{
+			
+			background:#fff;
+			border:1px solid #e7e7e7;
+			
+			}
+
+div.content  {margin:10px;position:relative;}
+.content a{text-decoration:none;}
+
+div.postssum{width:100%;border-bottom:1px solid #e3e3e3;height:23px;}
+.postssum img{height:20px;width:20px;margin:0;}
+.postssum span{margin:0 0 0 3px;}
+
+div.album_info{width:100%;height:auto;float:left;margin:5px 0 5px 0;border-bottom:1px solid #b7b7b7;}
+
+div.likeimg{margin:0 0 5px 0;float:left;width:100px;height:20px;}
+.likeimg img{height:20px;widht:20px;margin:0 0 0 3px;}
+.likeimg span{margin:2px 0 0 3px;}
+
+div.albumDesc{float:left;width:650px;margin:0 0 5px 0;}
+.albumDesc span{margin:0 5px 0 5px;width:100%;text-align:center;}
+
+div.manageBut{float:right;height:20px;width:80px;margin:0 0 5px 0;}
+.manageBut img{margin:0 2.5px 0  2.5px;}
+
+
+/*NoteComment*/
+div.BlogComment{float:left;!border:1px dotted;margin:5px 0 10px 0px ;border-bottom:1px solid #eee;}
+
+ .BlogComment p{float:none;margin:20px 0 10px 0;}
+
+
+
+div.NoteCommentLast{!border:1px solid;margin:20px 0px 0 50px ;min-height:90px;max-height:300px;height:100px;float:left;}
+
+div.title{width:100%;margin:0 0 4px 0;}
+
+div.comentedImg{float:right;margin:0 4px;height:100px;width:120px;}
+.comentedImg img{margin:0;width:100%;height:100%;}
+
+div.avalike{margin:0 5px;max-width:60px;height:60px;float:left;}
+div.CommentImage{margin:0;height:60px;widhth:100%;!border:1px solid;float:left;}
+.CommentImage img{height:60px;width:60px;margin:0;padding:0;}
+
+
+
+div.CommentTitle{margin:0 0 0 20px;!border:1px solid;float:left;height:20px;width:740px;}
+.CommentTitle a{margin:0;}
+.CommentTitle span{margin:0 5px 0 5px;float:right;color:#b7b7b7;}
+
+
+a#hashtag{color:#8eb4e3;}
+
+div.last_added{float:left;width:100%;!border:1px dotted;}
+
+div.last_addedTime {float:right;height:100%;!border:1px dotted;}
+.last_addedTime span {float:right;color:#b7b7b7;}
+
+
+
+div.postNewCom{float:left;width:60px;height:100%;}
+.postNewCom img{width:40px;height:40px;margin-left:7px;}
+
+div.CommentBottom{height:20px;!border:1px solid;display:block;margin:5px 0 5px 0;float:left;}
+
+div.commentLike{!border:1px solid;margin:0;padding:0;height:100%;width:568px;float:left;}
+.commentLike img{height:20px;width:20px;margin:0 0 0 10px;padding:0;}
+.commentLike span{margin:0 0 0 5px;}
+
+ div.commentManage{height:100%;!border:1px solid;float:left;width:260px;}
+.commentManage a{margin:0 5px 0px 0 ;float:right;max-width:210px;min-width:52px;}
+
+div.createnew{width:100%;height:60px;!border:1px dotted;margin:5px 0 0 0;float:left;}
+
+div.senderImg{float:left;height:100%;width:60px;!border:1px dotted;}
+.senderImg img{margin:0;height:60px;width:60px;}
+
+div.enterNew{float:left;margin:0 5px 0 5px;width:700px;height:100%;!border:1px dotted;}
+.enterNew textarea{width:99%;height:50px;border:3px solid #cacaca;border-radius:3px;}
+.enterNew textarea:focus{border:3px solid #cacaca;border-radius:3px;}
+
+div.postNew{float:left;width:80px;height:100%;}
+.postNew img{width:40px;height:40px;margin-left:20px;margin-top:10px;}
+
+div.warningMessage{width:100%;max-height:500px;min-height:20px;float:left;margin: 15px 0 15px 0px;padding: 3px 0 0 0;}
+div.centeredm{margin:0px 50px 0 50px;min-height:20px;text-align: center;}
+.centeredm span{float:left;display:block; width: 100%; margin:0 auto;color:#b7b7b7;text-align: center; }
+
+

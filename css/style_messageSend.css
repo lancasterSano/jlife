@@ -1,0 +1,62 @@
+
+.mainfield{
+			
+			background:#fff;
+			border:1px solid #e7e7e7;
+			height:auto;
+			}
+
+div.content  {margin:5px;position:relative;float:left;width:840px;}
+.content a{text-decoration:none;}
+
+/*1-st menu*/
+ul.mesSend{float: left;padding:0;margin:0;}
+ul.mesSend li {list-style: none;display: inline;}
+ul.mesSend a{width:100px;padding:0 10px 0 10px;}
+ul.mesSend img{float: none;margin:0;height:9px;width:6px;}
+
+textarea, .textareaClone {
+    min-height: 100px;
+    max-height: 300px;
+}
+
+/* content*/
+div.messagePosted{margin-bottom:5px;}
+div.messagePosted,div.sender{float:left;width:100%;}
+
+div.avatar{float:left;width:63px;height:65px;}
+.avatar img{margin:3px;width:57px;height:59px;}
+
+div.choose{margin:5px 0 0 -12px;display:block;overflow: hidden;float:left;height:26px;
+   background: url(../img/arrow.png) no-repeat  188px  #fff;width:750px;left:15px;
+	   position:relative;}
+   .choose select{
+   background: transparent;
+   width: 210px;
+   padding: 5px;
+   color:#8eb4e3;
+   font-style:italic;
+   line-height: 1;
+   border: 1px solid #d7d7d7;
+   border-radius: 0;
+   height: 26px;
+   float:left;
+   -webkit-appearance: none;
+   }
+div.sendDate{float:left;margin-left:5px;}
+.sendDate span{color:#b7b7b7;}   
+div.messageText{float: left;width:100%;}
+.messageText p{margin:0 2.5px 0 2.5px;}
+
+div.typing{width:100%;min-height:152px;margin:o;padding:0;float:left;}
+#txtArea{border: 1px solid #d7d7d7; border-radius: 5px; min-height: 150px;}
+div.presstosend{float:right;margin: 5px 0px 0 0px;
+                height: 60px;
+                width: 115px;
+                }
+               
+.presstosend span{margin:20px 0 0 0px;float: right;cursor: pointer;color:#8eb4e3;}
+.presstosend span:hover{color:#7093bf;}
+
+.presstosend img{margin:-20px 3px 0 0px;height:40px;width:40px;}
+.messageSendTabSpan{margin: auto;}

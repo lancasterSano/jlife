@@ -1,0 +1,22 @@
+div.popup_journal{	width:370px;
+					z-index:9999;
+					position:absolute;
+					background:#fff;
+					border:1px solid #b7b7b7;-moz-box-shadow: 5px 5px 10px  rgba(0,0,0,0.5); /* Для Firefox */
+				    -webkit-box-shadow: 5px 5px 10px  rgba(0,0,0,0.5); /* Для Safari и Chrome */
+				    box-shadow: 5px 5px 10px  rgba(0,0,0,0.5); /* Параметры тени */
+					text-align:left;
+				}
+div.journalCont{margin:5px 5px 0 5px;float: left;}
+.journalCont a{color:#8eb4e3;text-decoration: none;}
+
+div.journalContItem,div.journalContItemT{width:100%;float: left;margin-bottom:2.5px;}
+div.journalContItemT{border-bottom: 1px solid #b7b7b7;}
+div.workType{float: left;
+			 height:100%;
+			 margin-right: 5px;
+			 min-width: 30px;}
+.workType span{color:#b7b7b7;}
+div.workDesc,div.workDescT{float:left;height: 100%;width:300px;margin-bottom: 2.5px;}
+div.workDescT{margin:0;}
+div.testRes{margin:0 0 2.5px 3px;float:left;}

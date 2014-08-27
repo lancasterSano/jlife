@@ -1,0 +1,328 @@
+﻿@charset "utf-8";
+html{ /*overflow-y: scroll;*/ overflow: auto;}
+textarea{resize:none;}
+span,p{ text-align:justify;}
+img{border:none;margin:0;}
+a{color:#8eb4e3;text-decoration: none;}
+body  {
+	font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	background: #fcfcfc;
+	
+	margin: 0;
+	padding: 0;
+	
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/*############################*/
+/* DEBUG */
+div.debug {
+	/*float: left;*/
+	min-height: 50px;
+	width: 100%;
+	/*display: block;*/
+	/*position: relative;*/
+	background-color: rgba(242,246,248,1);
+	font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: rgba(99,147,193,1);
+	margin: 0 0 10px 0;
+}
+div.debug span.debug {
+	margin: 0 0 0 10px;
+	float:left; 
+}
+div.debug span.debug b { 
+	font-weight: 900;
+	margin: 0 5px 0 5px;
+}
+/* END DEBUG */
+/*############################*/
+
+.twoColLiqLt{display: block; margin:0;width:100%;background:#fcfcfc;}
+
+div.site_block{width:1007px;display: inline-block;margin:0 auto;}
+
+.twoColLiqLt #container { 
+	display: inline-block;
+
+position:static;
+	width: 100%;  /* this will create a container of the browser width */
+	background: #fcfcfc;
+	margin: 27px 0 0 0;
+	padding:0;
+	
+/*	margin: 0 ; /* the auto margins (in conjunction with a width) center the page*/
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+
+/*.........................
+    Стиль, необходимый для корректного отображения
+    на PageUSMF количества входящих заявок в друзьях*/
+span#countNewRequestsSpan{
+background: #ebebeb;
+top: 15px !important; 
+right: 53px !important; 
+color: #bbb;
+}
+/*........................*/
+div#mainContent {
+	?border:1px solid;
+	position:relative;
+	?left:170px;
+	display:block;
+	float:left;
+	margin:-20px 0 0 -16px;
+	?width:77%;
+	width:850px;
+	height:100%;	
+
+	overflow-wrap: break-word;  /* не поддерживает IE, Firefox; является копией word-wrap */ 
+	word-wrap: break-word;
+	word-break: keep-all;  /* не поддерживает Opera12.14, значение keep-all не поддерживается IE, Chrome */ 
+	-webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;
+} 
+
+div.union{width:853px;margin:0;}
+div.left_side{width:100%;float:left;}
+  
+		   
+		   
+		   
+		   
+		   
+.switch, .switch div{float:left;background:none;width:100%;margin:0;height:auto;? border:1px solid;}
+span , img{float:left;margin:8px 5px 0 0;}
+  
+.upbar img{margin:12px 10px 0 10px;}
+
+div.subl{
+	float:left;background:none;width:100%;
+	/*margin:0 0 6px 0;*/
+}
+
+ul#lineTabs{
+	position:relative;
+	margin:0;
+	/*height:30px;*/
+	list-style:none;
+	float:left;
+	padding:0px;
+	padding-right:30px;	
+	margin:0 0 6px 0;
+}
+
+#lineTabs li{
+	display:block;
+	float:left;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	overflow:visible;
+	text-align:center;
+}
+#lineTabs li:first-child a{margin: 0px 2px 0 0;}
+#lineTabs li a{
+	float:left;
+	color:#8eb4e3;
+	display:block;
+	height:16px;
+	border:1px solid #fcfcfc ;
+	border-radius:5px ;
+	padding:7px 5px;
+	position:relative;
+	text-decoration:none;
+	min-width:70px;
+    margin: 0px 2px;
+}
+#lineTabs li.active a{
+	padding:7px 10px;
+	background:#8eb4e3;
+	border:1px solid ;
+	border-radius:5px ;
+	color:white;
+	z-index:50;
+}
+#lineTabs li.active a:hover{
+	background:#8eb4e3;
+	border:1px solid #fff ;
+	border-radius:5px ;
+	color:white;
+	z-index:50;
+}
+
+#lineTabs li a:hover{
+	border:1px solid #fff ;
+	border-radius:5px ;
+	background:#d5e3f4;
+	color:#8eb4e3;
+	z-index:30;
+}
+
+ul#lineTabs span.messageTabSpan{
+    float: none;
+    margin: auto;
+}
+
+div.extendMenu{padding: 0 6px 0 0;float: left;width: auto;background:#8eb4e3;height: 32px;color:#fff;border-radius:5px;}
+.extendMenu span{margin: 7.5px 0 0 0;padding: 0px 10px;}
+.extendMenu ul{display:inline;float: left;padding:0;margin-top: 4px;border-radius:5px;overflow:hidden;}
+#lineTabs .extendMenu li a{min-width:80px;padding: 4px 10px;margin-right:0;border:none;top: -1px;float: none;vertical-align: top;color:#fff;background:#aac6e9;border-radius:0;}
+#lineTabs .extendMenu li a:hover{border:none;border-radius:0;}
+#lineTabs .extendMenu li.active span{text-align: center;background: rgb(252, 252, 252);color: rgb(142, 180, 227);margin: 0;top: -1px;height: 16px;position: relative;padding: 4px 10px;min-width: 80px;}
+#lineTabs .extendMenu ul li {border-right: 1px solid #8eb4e3;}
+#lineTabs .extendMenu ul li:last-child {border-right: 0px;}
+
+ 
+div.notLineTab{float:right;margin-right:12px;cursor: pointer;width:19px;height:19px;margin-top:6px;}
+.notLineTab img{margin:0;}
+div.UmanageBut{float:right;height:20px;width:80px;margin:8px 0 5px 0;}
+.UmanageBut img{margin:3px 2.5px 0  2.5px;height:18px;width:18px;}
+
+   
+
+   
+   .styled-select1 select{
+   background: transparent;
+   width: 110px;
+   padding: 5px;
+   color:#8eb4e3;
+   font-style:italic;
+   line-height: 1;
+   border: 1px solid #8eb4e3;
+   border-radius: 0;
+   height: 28px;
+   -webkit-appearance: none;
+   }
+   
+  div.styled-select1{margin:3px 0 0 0;display:block;left:25px;width:110px;overflow: hidden;
+   background: url(../../img/arrow.png) no-repeat  88px  #fff;
+	   position:relative;float:left;} 
+  
+#countMessagesInfo{
+    float: right;
+    margin-right: 20px;
+}
+  
+span.countSpan{
+    float: none;
+    margin: auto !important;
+}
+
+div.messageAllButtons{
+    float: right;
+    margin: 0px;
+    height: 30px;
+    width: auto;
+}
+.messageAllButtons div{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 0 7.5px 0 7.5px;
+    display: inline;
+}
+div#newMsgBtn{
+    background: url('../img/newmess.png') no-repeat;
+    background-size: 30px 30px;}
+div:hover#newMsgBtn{
+    background: url('../img/newmess_h.png') no-repeat;
+    background-size: 30px 30px;
+}
+div#markAll{
+    background: url('../img/mark_all.png') no-repeat;
+    background-size: 30px 30px;
+}
+div:hover#markAll{
+    background: url('../img/mark_all_h.png') no-repeat;
+    background-size: 30px 30px;
+}
+div#deleteMarked{
+    background: url('../img/delete_checked.png') no-repeat;
+    background-size: 30px 30px;
+}
+div:hover#deleteMarked{
+    background: url('../img/delete_checked_h.png') no-repeat;
+    background-size: 30px 30px;
+}
+
+div.mainfield{
+	display:block;			
+	width:100%;
+	float:left;			
+	min-height:518px;
+	margin-top:5px;
+	background:#fff;
+	border:1px solid #e7e7e7;
+}
+/*контент изменения*/
+div.mainfield div.content {width: 830px;margin:10px;position:relative; float: left;}
+div.mainfield div.content a{text-decoration:none;}
+
+/*---------------------------------------------------------------------------------*/
+
+/*боковое меню*/
+.twoColLiqLt #sidebar1 {left:-10px; width: 169px; background: #fcfcfc;}
+.twoColLiqLt #sidebar1 {float:left;position:relative;font-size:16px;}
+.twoColLiqLt #sidebar1 ul {float:left;padding-left:15px;margin:15px 0;}
+.twoColLiqLt #sidebar1 li {list-style:none;margin:0;float:left;}
+.twoColLiqLt #sidebar1 span {margin:0;}
+.twoColLiqLt #sidebar1 span.alertS {margin: -2px 0 0 -5px;}
+#sidebar1 li{height:55px;width:150px;}
+#sidebar1 span{float:left;margin-top:10px;position:relative;}
+#sidebar1 a{color:#8eb4e3;text-decoration:none;}
+#sidebar1 a:hover{color:#7093bf;}
+#sidebar1 img{height:40px;width:40px;margin:0;}
+#sidebar1 span{position:realtive;top:35px;right:10px;}
+span#comm{background:#ebebeb;top:15px;right:50px;float:left;color:#bbb;}
+span#comm1{background:#ebebeb;top:15px;right:45px;float:left;color:#bbb;}
+span#comm2{background:#ebebeb;top:15px;right:65px;float:left;color:#bbb;}
+
+/*footer*/
+div.footer{width:100%;margin:10px auto 0 auto;display: inline-block;}
+.footer ul{padding:0;text-align:center;margin:0;}
+.footer li{list-style:none;display:inline;margin:0 10px 0 10px;}
+.footer li:last-child{margin-right:0;}
+.footer li:first-child{margin-left:0;}
+.footer li a{text-decoration: none;cursor: pointer;}
+.footer li a:hover{color:#7093bf;}
+
+.cp {cursor: pointer;}
+.cd {cursor: default;}
+
+/*---------------------------------- USER MESSAGES --------------------------------*/
+/*---------------------------------------------------------------------------------*/
+	div.confirmationMSG {border-radius:2px;width:100%;padding-top:10px;/*width:573px;*/min-height:28px;margin-bottom: 10px;display: inline-block; }
+	div.confirmationMSG.success{border:1px solid #6b90bf;color:#6b90bf;background: url(../img/ntrue.png) no-repeat #EFF4FF;background-position: 6px 6px; background-size: 25px;}
+	div.confirmationMSG.error{border:1px solid #d28b8d;color:#d28b8d;background: url(../img/nfalse.png) no-repeat #FFF4FF;background-position: 6px 6px; background-size: 25px;}
+	div.confirmationMSG.warning{border:1px solid #d28b8d;color:#d28b8d;background: url(../img/nwarning.png) no-repeat #FFF4FF;background-position: 6px 6px; background-size: 25px;}
+	div.confirmationMSG.info{border:1px solid #8D8D8D;color:#8D8D8D;background: url(../img/ninfo.png) no-repeat #f1f1f1;background-position: 6px 6px; background-size: 25px;}
+/*	.confirmationMSG.success span, .confirmationMSG.error span,
+		.confirmationMSG.warning span, .confirmationMSG.info span,
+		.confirmationMSG_n span {margin-bottom: 10px;display:block;}*/
+	.confirmationMSG.success span.title, .confirmationMSG.error span.title,
+		.confirmationMSG.warning span.title, .confirmationMSG.info span.title,
+		.confirmationMSG_n span.title {margin-bottom: 6px;display:block;padding: 0px 10px 0px 40px;float: none;}
+	
+	.confirmationMSG.success span.text, .confirmationMSG.error span.text,
+		.confirmationMSG.warning span.text, .confirmationMSG.info span.text,
+		.confirmationMSG_n span.text {margin-bottom: 10px;display:block;float: none;}
+
+	.confirmationMSG.success span.text , .confirmationMSG_n span.text , 
+	.confirmationMSG.error span.text , .confirmationMSG.warning span.text , 
+	.confirmationMSG.info span.text {margin-bottom: 10px;display:block;padding: 0px 10px 0px 60px;color: #b6b6b6;float: none;}
+
+	.confirmationMSG span.title,  span.text {text-transform: lowercase; }
+	.confirmationMSG span.title:first-letter, span.text:first-letter {text-transform: uppercase; }
+
+
+
+
+/*manage elements*/
+.actionItem{cursor: pointer;color:#8eb4e3;}
+:hover.actionItem , .actionItemActive{color: #7093bf;}
+.actionItemActive{text-decoration: underline;}
+/*errorInput*/
+.entererror{border:1px solid #d28b8d;color:#d28b8d;background: url(../../img/nfalse.png) no-repeat #FFF4FF;background-position: 6px 6px; background-size: 25px;outline: none;}
+.entererror{background:#FFF4FF;}
+

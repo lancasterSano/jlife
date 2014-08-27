@@ -1,0 +1,117 @@
+/* 
+    Document   : style_schedule
+    Created on : 25.07.2013, 16:08:08
+    Author     : Lancaster
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.mainfield{
+			
+			background:#fff;
+			border:1px solid #e7e7e7;
+			height:auto;
+			}
+
+div.content  {margin:5px 10px;position:relative;float:left;width:830px;}
+.content a{text-decoration:none;}
+
+/*1-st menu*/
+ul.mesSend{float: left;padding:0;margin:0;}
+ul.mesSend li {list-style: none;display: inline;}
+ul.mesSend a{width:100px;padding:0 10px 0 10px;}
+ul.mesSend img{float: none;margin:0;height:9px;width:6px;}
+
+
+
+/* content*/
+
+div.grClass{float:left;border-bottom:1px solid #b7b7b7;width:100%;}
+
+div.grClassInfo{float:left;width:70%;}
+div.grClassName{float:left;width:100%;}
+.grClassName span{margin:0px 0px 0 10px;font-weight: bold;color:#000;}
+
+div.grClassOptions{float:left;width:100%;}
+.grClassOptions span{margin:0;}
+.grClassOptions a{margin:0 0 0 10px;}
+span.optvalue{margin:0px 0 0 10px;}
+
+div.grClassPhoto{float:left;width:30%;margin-bottom:5px;}
+.grClassPhoto img{margin:5px;width:149px;height:105px;float:right;}
+
+div.links{float:left;width:100%;border-bottom:1px solid #b7b7b7;margin-top:3px;}
+.links img{height:15px;width:15px;margin:0;}
+.links span{margin:0 0 0 3px;}
+.links a{float: left;margin:0 10px 3px 5px;}
+
+
+div.next_prev{width:100%;float: left;margin-top:5px;padding-bottom: 5px;}
+
+div.prev{float: left;background: url(../../img/rwb.png) no-repeat  left center ;background-size: 16px 16px;}
+.prev a{float: left;padding-left:20px;}
+
+div.next{float: right;background: url(../../img/rwnu.png) no-repeat  right center ;background-size: 16px 16px;}
+.next a{float: left;padding-right:20px;}
+
+.next a:hover, .prev a:hover{color:#7093bf;}
+
+div.tableHeader{float: left;width:100%;background:#dfdee1;margin-top:5px;}
+.tableHeader span{margin:0;color:#a7a7a7;}
+
+div.number , div.subj , div.hometask , div.auditor{ float: left;height:100%;margin:3px 5px ;}
+
+div.subj{width:190px;}
+div.hometask{width:552px;}
+
+
+
+div.day{float: left;width:100%;margin-top:10px;}
+.day span{margin:3px; text-align: center; width: 93%;}
+.dateSpan{ width: auto !important;}
+div.dayDate,div.dayDateR, div.dayDateRTd, div.dayDateRTm {float: left;width:100%;}
+div.dayDateR{border-bottom:3px solid #dfdee1;}
+div.dayDateRTd{border-bottom:3px solid #cfdef0}
+div.dayDateRTm{border-bottom:3px solid #7093bf;}
+div.dayUnact , div.dayAct , div.dayNext {float: right;width: 100px; cursor: pointer;}
+div.dayUnact{background:#dfdee1;}
+div.dayAct{background:#cfdef0;}
+div.dayNext{background:#7093bf;}
+
+.dayUnact span, .dayAct span , .dayNext span{width:94%;text-align:center;margin:3px 3%;}
+
+table.dayCont,table.dayContCur, table.dayContNext{float: left;border:3px solid #dfdee1;width:100%;}
+table.dayContCur{border:3px solid #cfdef0;}
+table.dayContNext{border:3px solid #7093bf;}
+.dayCont td, .dayContCur td, .dayContNext td{vertical-align: top;}
+
+td.number{width:25px;}
+td.lesName{border-right: 2px solid #dfdee1;}
+.lesName a:hover{color:#7093bf;}
+td.dz , td.dzL{width:563px;border-right:2px solid #dfdee1;border-bottom:2px solid #dfdee1; }
+td.dzL{border-bottom:none;}
+.dz div , .dzL div{width:100%;float:left;}
+.dz a , .dzL a{float: left;padding:3px;border-bottom:2px solid #dfdee1;width:543px;}
+.dz  span,  .dzL span{margin:0;float: none;margin-left:2px;text-align: justify;}
+
+td.auditor, td.auditorL{width:43px;border-bottom:2px solid #dfdee1;}
+td.auditorL{border-bottom:none;}
+td.auditor span , td.auditorL span{margin:3px auto;width:100%;text-align: center;}
+
+.paragraphspan{
+    float: left !important;
+    padding: 3px;
+    border-bottom: 2px solid #dfdee1;
+    width: 555px !important;
+    margin-left: 0 !important;
+}
+.paragraphhref{
+    border-bottom: 0 !important;
+    float: none !important;
+}
+.partparagraphhref{
+    border-bottom: 0 !important;
+    float: none !important;
+}
+.dz a:hover{color:#7093bf;}

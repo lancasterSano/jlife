@@ -1,0 +1,41 @@
+
+
+td{vertical-align:top;}
+
+
+
+
+
+
+
+/*content*/
+
+div.subjects{border-bottom: 1px solid #b7b7b7;padding-bottom: 15px;}
+.subjects ul{list-style: none;margin:0;padding:0;}
+.subjects li{width: 49%;display: inline-block;vertical-align: top;}
+.subjects div.subjttl span {float: none;cursor:default;}
+.subjects div.subjCont{margin:0 0px 0 10px; }
+.subjects div.subjCont span{margin:0 0 0 10px;color: #8eb4e3;cursor: pointer;float: none;}
+.subjects div.subjCont span:hover{color: #7093bf;}
+.subjects div.subjCont span.active{text-decoration: underline;color: #7093bf;}
+
+div.testInfo{display:none; margin: 10px 10px 0 10px;}
+.testInfo span{float: none;margin: 0;}
+div.paragraph{cursor: default;color: #8eb4e3;}
+.testInfo div.paragraph strong{font-weight: normal;color: #000;}
+.testInfo div.paragraph a{display:none;margin:0 0 0 5px;color: #8eb4e3;cursor: pointer;float: none;}
+.testInfo div.paragraph span:hover{color: #7093bf;}
+.testInfo div.paragraph span.active{text-decoration: underline;color: #7093bf;} 
+.testInfo div.parInfo strong{color: #b7b7b7;font-weight: normal;}
+.testInfo div.parInfo span{margin-left: 5px;}
+.testInfo table{width: 100%;border-top: 1px solid #b7b7b7;border-left: 1px solid #b7b7b7;
+        margin-top:5px;}
+.testInfo table thead td{text-align: center;color: #b7b7b7;vertical-align: middle;
+             padding: 5px 0;border-bottom: 1px solid #b7b7b7;
+             border-right: 1px solid #b7b7b7;}
+.testInfo table thead td.left{width: 30%;}
+.testInfo table tbody td{border-bottom: 1px solid #b7b7b7;width:73px;
+             border-right: 1px solid #b7b7b7;padding:2px 0 2px 5px;text-align: center;vertical-align: middle;}
+.testInfo table tbody td.left{text-align: left;vertical-align: top;}
+
+

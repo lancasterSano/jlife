@@ -1,0 +1,40 @@
+
+div.mainfield{
+			min-height: 540px;
+			background:#fff;
+			border:1px solid #e7e7e7;
+			
+                        word-break: break-all;
+			}
+
+div.content  {margin:5px;position:relative;float:left;width:840px;}
+.content a{text-decoration:none;}
+
+/*1-st menu*/
+ul.mesSend{float: left;padding:0;margin:0;}
+ul.mesSend li {list-style: none;display: inline;}
+ul.mesSend a{width:100px;padding:0 10px 0 10px;}
+ul.mesSend img{float: none;margin:0;height:9px;width:6px;}
+
+
+
+/* content*/
+
+div.message{float:left;margin-bottom:5px;border:1px solid #e7e7e7;background: none;height:70px;width: 100%;cursor: pointer;}
+div.messageUnR{background: rgba(213,227,244,0.5);cursor: pointer;float:left;margin-bottom:5px;border:1px solid #e7e7e7;height:70px;width: 100%;}
+
+div.avatar{float: left;background: none;height:100%;width:63px;}
+.avatar img{margin:6px 3px 4px 3px;height:59px;width:57px;}
+
+div.messageContent{float: left;margin:3px;height:59px;width:770px;}
+
+div.senderName{float: left;width:100%;height:15px;color: #8eb4e3;margin:0;}
+.senderName span{margin:0;}
+span.deleteMes{float:right;color: #8eb4e3;}
+
+div.messageText{width: 90%;float: left;height:30px;}
+.messageText p{margin:0;}
+div.forAct{float:left;margin:0;height:30px;width:10% ;}
+.forAct input{margin: 10px 0 10px 45px;}
+div.dateSent{float: left;width:100%;height:15px;}
+.dateSent span{float: right;color:#b7b7b7;margin:0;}

@@ -1,0 +1,28 @@
+groups = array(
+	[idSubgroup] => array(
+							[learners] => array(
+														[idLearner] => Learner Object
+												),
+							[group] => group,
+
+						),
+	[marks] => array(
+						[idLearner] => array( 
+												[idLesson] => array(
+																	[idSpisoklessontype] => Mark Object,
+																	[idSpisoklessontype] => NULL
+																)
+
+											)
+						),
+	[lessons] => array(
+						[idLesson] => Lesson Object {
+														[spisoklessonstypes] => array(
+																[idSpisoklessontype] => Lessontype Object,
+																[idSpisoklessontype] => Lessontype Object
+															),
+														...
+													}
+						)
+						
+)

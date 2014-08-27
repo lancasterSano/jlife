@@ -1,0 +1,18 @@
+﻿/*h2 {
+	padding: 20px;
+	text-align: center;
+	color: #8EB4E3;
+}*/
+.content img {
+	margin: 0 0 0 285px;
+	
+}
+.mainfield{
+			
+			background:#fff;
+			border:1px solid #e7e7e7;
+			min-height: 520px;
+			}
+
+div.content  {position:relative;float:left;width:100%;margin-bottom:10px;}
+.content a{text-decoration:none;}

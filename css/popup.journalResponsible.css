@@ -1,0 +1,28 @@
+/*@import url(reset.css);*/
+/* всплывающее окно */
+/*************************************************************************************/
+/*		Результаты теста \ Домашнее задание	*/
+div.journalCont{!margin:5px 5px 0 5px;!float: left;max-width: 500px;}
+.journalCont a{color:#8eb4e3;text-decoration: none;}
+
+div.journalContItem,div.journalContItemT{width:100%;margin-bottom:2.5px;}
+div.journalContItemT{border-bottom: 1px solid #b7b7b7;}
+
+
+
+div.workType,div.item{ height:100%; margin-right: 5px; min-width: 30px; display:inline-table;}
+
+div.item{margin-right:0;width:100%;}
+div.left{width: 30%;
+    float: left;}
+div.right{float:left;width:70%;}    
+.item span.header{color:#b7b7b7;}
+.item  span{color: #000;width: 100%;text-align: center;float: left;
+}    
+
+
+.workType span{color:#b7b7b7;}
+div.workDesc,div.workDescT{max-width:92%;display:inline-table;height: 100%;/*width:100px;*/margin-bottom: 2.5px;} /* 300px */
+div.workDescT{margin:0;}
+div.testRes{margin:0 0 2.5px 40px;}
+/*************************************************************************************/

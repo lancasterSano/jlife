@@ -1,0 +1,69 @@
+
+ul#lineTabs{
+	position:relative;
+	margin:0;
+	height:30px;
+	list-style:none;
+	float:left;
+	padding:0px;
+	padding-right:30px;
+	
+	
+}
+
+#lineTabs li{
+	display:block;
+	float:left;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	overflow:visible;
+	text-align:center;
+	
+}
+#lineTabs li a{
+	float:left;
+	color:#8eb4e3;
+	display:block;
+	height:16px;
+	border:1px solid #fcfcfc ;
+	border-radius:5px ;
+	padding:7px 20px;
+	position:relative;
+	text-decoration:none;
+	min-width:90px;
+        margin-right:5PX;
+}
+#lineTabs li a.active{
+	
+	
+	background:#8eb4e3;
+	border:1px solid ;
+	border-radius:5px ;
+	color:white;
+	z-index:50;
+}
+#lineTabs li a.active:hover{
+	
+
+	background:#8eb4e3;
+	border:1px solid #fff ;
+	border-radius:5px ;
+	color:white;
+	z-index:50;
+}
+
+
+#lineTabs li a:hover{
+	
+	border:1px solid #fff ;
+	border-radius:5px ;
+	background:#d5e3f4;
+	color:#8eb4e3;
+	z-index:30;
+}
+
+ul#lineTabs span.messageTabSpan{
+    float: none;
+    margin: auto;
+}

@@ -1,0 +1,55 @@
+/*scroll here => change width to 100%*/
+
+
+div.testBlockR , div.testBlockB{float:left;width:96.5%;margin-top:5px;border:1px solid #b7b7b7;border-right:30px solid #8eb4e3;}
+div.testBlockB{background:#deffe8;}
+div.testBlockR{background:#ffe8e8;}
+.testBlockR span , .testBlockB span{margin:5px 0 0 10px;width:100%;font-weight:bold;} 
+.testBlockR ol , .testBlockB ol{padding:0 0 0 41px;margin:5px 0;color:#000;float:left;width:95%;}
+.testBlockR  ol li , .testBlockB ol li{display: inline-block;
+	margin:3px 0;
+    width: 49%;
+
+    vertical-align: top;}
+.testBlockR  ol li a , .testBlockB ol li a{color:#000;
+padding: 0 3px;
+border-radius: 7px;
+cursor: pointer;
+}
+
+a.selected{background: #d7d7d7;}
+
+div.result , div.resultB{width:100%;margin:0;float: left;}
+div.resultB{margin-top:5px;}
+.result span , .resultB span{margin:0;color:red;padding:4px;}
+
+a.finnish{float: right;padding: 3px;border:1px solid #e7e7e7;margin-right:2px;cursor: pointer;}
+a:hover.finnish{background: #cfdff3;}
+
+
+/*testReadyEnd */
+
+div.testBlock{float:left;width:96.5%;margin-top:5px;border:1px solid #b7b7b7;border-right:30px solid #8eb4e3;}
+.testBlock span{margin:5px 0 0 10px;width:98%;font-weight:bold;} 
+.testBlock ol{padding:0 0 0 41px;margin:5px 0;color:#000;float:left;width:95%;}
+.testBlock  ol li{display: inline-block;
+	margin:3px 0;
+    width: 49%;
+
+    vertical-align: top;}
+.testBlock  ol li a{color:#000;
+padding: 0 3px;
+border-radius: 7px;
+cursor: pointer;
+}
+
+.testBlock  ol li a:hover , .testBlock  ol li a:hover.selected{background: #e7e7e7;}
+.testBlock  ol li a.selected{background: #d7d7d7;}
+
+
+
+
+div.OK{float: right;margin: 30px 80px 0 0;width:100px;background:url(../../img/like2.png) no-repeat left center;height:50px;background-size: 50px;}
+.OK a{width: 100%;height: 100%;}
+.OK a:hover{color:#7093bf;}
+.OK span{text-align: right;float: right;vertical-align: middle;margin:28px 0;}

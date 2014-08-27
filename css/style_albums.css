@@ -1,0 +1,165 @@
+﻿.mainfield{
+			background:#fff;
+			border:1px solid #e7e7e7;
+			
+			}
+
+div.content  {margin:10px;position:relative;}
+.content a{text-decoration:none;}
+
+div.postssum{width:100%;border-bottom: 1px solid #b7b7b7;height:23px;margin-bottom: 5px;}
+.postssum img{height:20px;width:20px;margin:0;}
+.postssum span{margin:0 0 0 3px;}
+
+/*Альбом*/
+div.post{width:100%;margin: 0 0 5px 0 ;height:auto;display:block; border-bottom:1px solid #eee;float:left;}
+.post img{height:20px;width:20px;}/*-----------------------------изменяется в зависимости от содержимого поста*/
+
+div.albumpic{margin:0;}
+.albumpic img{margin:0;height:105px;width:121px;}
+
+img#divide{margin:10px  auto;position:relative;width:100%;height:3px;}
+
+div.albumtitle{width:auto;margin:0;}
+.albumtitle a {color:#8eb4e3;height:auto;margin:0 0 0 5px ;}
+
+div.buttons{margin:0;float:right;!border:1px solid;position:relative;top:-5px;width:70px;}
+.buttons img{margin:3px 2px 0 0;}
+.buttons span{color:#8eb4e3;margin:4px 0  0 3px;}
+.buttons a {margin:0;}
+
+div.albumdesc{margin:5px 0 0 180px;height:auto;min-height:55px;float:none;width:300px;}
+.albumdesc span{margin:0;}
+
+div.albumBottomInfo{!border:1px solid;margin:7px 0 5px 130px  ;position:relative;height:auto;float:none;min-height:20px;}
+
+div.albumLike{margin:0;float:left;width:100%;}
+.albumLike img{margin:0;}
+.albumLike span{margin:0 0 0 3px;}
+
+div.albumCommentInfo{margin:0;float:left;width:150px;height:20px;}
+.albumCommentInfo span{margin:0 10px 0 20px;color:#b7b7b7;float:left;}
+.albumCommentInfo img{margin:0;height:20px;width:20px;}
+.albumCommentInfo a{float:left;max-width:7px;margin:0;}
+
+div.deleteAlbum{float: right;}
+.deleteAlbum span{color: #8eb4e3;cursor: pointer;}
+
+
+
+/*комментарий*/
+
+div.AlbumComment{!border:1px solid;margin:5px 0px 0 50px ;border-bottom:1px solid #eee;min-height:90px;float:left;width:730px;}
+
+div.AlbumCommentLast{!border:1px solid;margin:20px 0px 0 50px ;min-height:90px;max-height:300px;height:100px;}
+div.right{float:left;width:630px;min-height:60px;cursor:pointer;}
+
+div.avalike{margin:0;max-width:60px;height:60px;float:left;}
+div.CommentImage{margin:0;height:60px;widhth:100%;!border:1px solid;position:relative;}
+.CommentImage img{height:60px;width:60px;margin:0;position:relative;padding:0;}
+
+div.commentLike{!border:1px solid;margin:0;padding:0;height:100%;width:60px;float:left;}
+.commentLike img{height:20px;width:20px;margin:0 0 0 10px;padding:0;}
+.commentLike span{margin:0 0 0 5px;}
+
+div.CommentTitle{margin: 0 0 0 20px ;width:auto;!border:1px solid;position:relative;}
+.CommentTitle a{margin:0;}
+.CommentTitle span{margin:0 5px 0 5px;float:right;color:#b7b7b7;}
+
+div.CommentText{!border:1px solid;position:relative;width:580px;float:left;}
+.CommentText p{margin:0;width:100%;/*max-height:150px;*/height:auto;!border:1px solid;display:block;}
+
+div.CommentBottom{height:20px;!border:1px solid;position:relative;display:block;margin:5px 0 5px 0;float:left;width:730px;}
+
+ div.commentManage{height:100%;!border:1px solid;width:665px;position:relative;float:left;}
+
+.commentManage span, .commentManage a{margin:0 5px 0px 0 ;float:right;color:#8eb4e3;cursor: pointer;}
+
+div.warningMessage{width:100%;max-height:500px;min-height:20px;float:left;margin: 15px 0 15px 0px;padding: 3px 0 0 0;}
+div.centeredm{margin:0px 50px 0 50px;min-height:20px;text-align: center;}
+.centeredm span{float:left;display:block; width: 100%; margin:0 auto;color:#b7b7b7;text-align: center; }
+
+/*c фокусом*/
+div.c_new_comm{width:100%;height:60px;!border:1px dotted;margin:0 0 10px 50px;float:left;}
+div.c_new_comm div.enterNewCom{float:left;margin:0 5px 0 5px;width:600px;height:100%;!border:1px dotted;}
+div.c_new_comm .enterNewCom textarea{width:99%;height:50px;border:3px solid #cacaca;border-radius:3px;}
+/*-- видны ава и кнопка отправить -----*/
+div.c_new_comm div.senderImgCom{float:left;height:100%;width:60px;!border:1px dotted;}
+div.c_new_comm div.postNewCom {
+    float:left;
+    width:40px;
+    height:40px;
+    background:url("../img/mail.png") left no-repeat;
+    background-size:40px 40px;
+    margin:8px 0 0 7px;
+}
+/*без фокуса*/
+div.c_new_commUn{width:100%;height:30px;!border:1px dotted;margin:10px 0 10px 50px;float:left;}
+div.c_new_commUn div.enterNewCom{float:left;margin:0 65px 0 65px;width:600px;height:100%;!border:1px dotted;}
+div.c_new_commUn .enterNewCom textarea{width:99%;height:20px;border:3px solid #cacaca;border-radius:3px; color:#cacaca; font-style: italic;}
+/*-- скрыты ава и кнопка отправить ----*/
+div.c_new_commUn div.senderImgCom{float:left;height:100%;width:60px;!border:1px dotted; display: none;} 
+div.c_new_commUn div.postNewCom {
+    float:left;
+    width:40px;
+    height:40px;
+    background:url("../img/mail.png") left no-repeat;
+    background-size:40px 40px;
+    margin:8px 0 0 7px;
+    display: none;
+}
+textarea {font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif; padding: 0.3ex 0ex 0ex 0.4ex; }
+/*общее*/
+.senderImgCom img{margin:0;height:60px;width:60px;}
+.enterNewCom textarea:focus{border:3px solid #cacaca;border-radius:3px;}
+
+.albumCommentInfo div.expanded{
+    float: left;
+    width: 218px;
+    height: 20px;
+    background: url("../img/full.png") left no-repeat;
+    background-size: 16px 16px;
+    margin: 0 0 0 -28px;
+    padding: 0 0 0 18px;
+    color:#8eb4e3;
+}
+span.changetext{float:left;width:164px;color:#000;}
+.albumCommentInfo div.abbreviated{
+    width: 218px;
+    float: left;
+    height: 20px;
+    background: url("../img/full1.png") left no-repeat;
+    background-size: 16px 16px;
+    margin: 0 0 0 -28px;
+    padding: 0 0 0 18px;
+    color:#8eb4e3;
+}
+.albumCommentInfo span{margin:0 5px 0 5px;}
+div.likediv{height:20px;width:165px;float:left;margin:0 0 0 10px;}
+div.manage{float:left;height:100%;width:515px;}
+/*
+div.albumCommentInfo{float:left;width:200px;height:100%;}
+.albumCommentInfo div.empty{float:left;height:20px; background:url("../img/empty.png") left no-repeat;background-size:16px 16px;margin:0; padding:0 0 0 18px;}
+.albumCommentInfo div.expanded{
+    float: left;
+    width: 218px;
+    height: 20px;
+    background: url("../img/full.png") left no-repeat;
+    background-size: 16px 16px;
+    margin: 0 0 0 -28px;
+    padding: 0 0 0 18px;
+    color:#8eb4e3;
+}
+span.changetext{float:left;width:164px;color:#000;}
+.albumCommentInfo div.abbreviated{
+    width: 218px;
+    float: left;
+    height: 20px;
+    background: url("../img/full1.png") left no-repeat;
+    background-size: 16px 16px;
+    margin: 0 0 0 -28px;
+    padding: 0 0 0 18px;
+    color:#8eb4e3;
+}
+.albumCommentInfo span{margin:0 5px 0 5px;}
+*/

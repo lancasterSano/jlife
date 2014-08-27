@@ -1,0 +1,82 @@
+@charset "utf-8";
+img{border:none;}
+a:visited{color:none;}
+
+body  {
+	font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	background: #fdfdfd;
+	
+	width:1024px;
+	margin: 0;
+	padding: 0;
+	
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.twoColLiqLt{height:100%; margin:0 auto;background:#fdfdfd;}
+
+.twoColLiqLt #container { 
+position:static;
+	width: 1020px;  /* this will create a container of the browser width */
+	background: #fff;
+	height:100%;
+	padding:0;
+	margin-top:30px;
+/*	margin: 0 ; /* the auto margins (in conjunction with a width) center the page*/
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+
+
+div#mainContent {
+	?border:1px solid;
+	position:relative;
+	?left:170px;
+	display:block;
+	float:left;
+	margin:0 0 0 0px;
+	?width:77%;
+	width:100%;
+	background: url(../photo/img/bg.jpg) #fdfdfd center no-repeat  ;
+	min-height:500px;
+	height:100%;
+	
+} 
+
+
+.twoColLiqLt div.menu{margin:0;width:1024px;height:30px;background:#a6a6a6;border-bottom:3px solid #8eb4e3;border-radius: 0 0 3px 3px;}
+.twoColLiqLt .menu img{float:left;margin:10px 30px 0;height:50px;}
+.menu a{ text-decoration:none;
+		 color: #fff;}
+.menu a:hover{text-decoration:none;
+		 color: #ccc;}	
+div.registr	{float:right;margin: 5px 30px 0 0;}
+	   
+
+/*контент*/
+div.mainfield{width:100%;height:100%;}
+
+div.registration{margin:40px 0 0 0;float:right;width:300px;height:150px;position:relative;float:left;color:#8eb4e3;font-weight:bold;}
+div.enter{margin-left:50px;font-size:20px;}
+
+div.Registrlbl{float:left;width:45px;height:64px;}
+.Registrlbl span{display:block;margin-top:10px;}
+
+span#correction{margin-top:13px;}
+
+div.RegistrFields{float:left;width:255px;}
+.RegistrFields input{margin:10px 0 0 20px;width:80%;background:#e9e9e9;border:1px solid #8eb4e3;box-shadow:none;border-radius:3px;}
+
+div.notify{margin-top:5px;float:left;}
+span#notfound{float:left;margin:5px 0 0 15px;color:black;}
+
+div.texting{width:70%;float:left;}
+.texting h1{margin-left:40px;color:#8eb4e3;margin-top:40px;}
+.texting table{margin:20px 0 0 40px;font-weight:bold;}
+
+div.downbar{margin:30px auto;height:30px;float:left;width:100%;margin-bottom:0;}
+
+div.ulist{width:auto;margin:0 auto;}
+.ulist a{ text-decoration:none; color:#8eb4e3;font-weight:bold;}
+.downbar ul{width:100%;padding:0;margin:0 0 0 50px;}
+.downbar li{list-style:none;display:inline;margin-left:60px;}
+

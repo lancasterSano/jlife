@@ -1,0 +1,94 @@
+/*scroll here => change  width to 100%*/
+
+div.questAll{float: left;width:100%;}
+.conspectCont hr{width: 925px;border: 1px solid #b7b7b7;background: #000;margin-left:4px;border-bottom: 0;float: left;}
+div.cutOp{float: left;width:20px;height:20px;background:url(../../img/rwn.png) no-repeat center ;background-size: 15px 15px;}
+div.cutNoActive{float: left;width:20px;height:20px;background:url(../../img/rwnNoActive.png) no-repeat center ;background-size: 15px 15px;}
+div.cutCl{float: left;width:20px;height:20px;background:url(../../img/rwnu.png) no-repeat center ;background-size: 15px 15px;}
+
+div.type{float: left;width:97%;}
+.type span{margin:0;width:100%;font-weight: bold;}
+.type .finnish span{width: 130px;font-weight: normal;}
+span.count{float: none;margin:0;}
+
+div.questLvl,div.questLvlOp{margin:10px 0 0 1%;width:98%;float: left;display: none;}
+
+div.questName{float: left;width:100%;}
+span#title{max-width: 755px;word-break:break-all;}
+.questName span{margin: 0;}
+.questName textarea{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;float:left;width:750px;height:40px;border: none;resize:none;border:1px solid #e7e7e7;outline:0;border-radius: 3px;margin-left:5px;}
+
+div.add{float: right;width:145px;border:1px solid #e7e7e7;margin-right:3px;}
+.add img{float: right;margin:0 10px 0 0px;height:19px;width:19px;}
+.add span{margin:0;color:#8eb4e3;cursor: pointer;font-weight: normal; width: 98%;
+padding-left: 2%;}
+
+div.questTools{float: left;margin: 5px 0 0 35px;}
+.questTools span{margin: 0 10px 0 0;color:#b7b7b7;}
+
+div.questMenu{margin-right:10px; }
+
+/*div.displayMenu{width:135px;position: absolute;right:30px;top:  29px;border: 1px solid #e7e7e7;background: #fff;}
+.displayMenu a{float: left;width:98%;padding-left:2%;}
+.displayMenu span{margin: 0;}
+.displayMenu img{margin:0 0 0 3px;height:19px;width:19px;}
+.displayMenu a:hover{background: #8eb4e3;color:#fff;}
+a.first{background: #cfdff3;}
+a:hover.first{background: #cfdff3;color:#8eb4e3;}*/
+
+ div.styled-select{margin:0;display:block;overflow: hidden;float:left;
+   background: url(../../img/arrow.png) no-repeat  73px  #fff;width:90px;background-size: 12px 10px}
+   .styled-select select{
+   outline: 0;
+   background: transparent;
+   width: 100%;
+   padding: 0px;
+   color:#b7b7b7;
+   font-style:italic;
+   line-height: 1;
+   text-align: center;
+   border: 1px solid #e7e7e7;
+   border-radius: 0;
+   height: 18px;
+   -webkit-appearance: none;
+   }
+
+  div.questText{margin:0px;width:100%;float: left;}
+  div.manage{width:104px;float: left;margin-left:10px;}
+  .manage span{font-weight: normal;width:100%;text-align: center;}
+  .manage img{margin:0 3px 0 0;}
+    .manage a{ height:19px;float: left;border:1px solid #e7e7e7;width:100%;}
+  .manage a:hover {color:#8eb4e3;border:1px solid #e7e7e7;background:#cfdff3;}
+ 
+
+  div.questAnsw{float: left;margin:5px 0 0 0;width:100%;}
+
+  div.answItem{float: left;width: 100%;margin-top:5px;}
+  .answItem input{border: 1px solid #e7e7e7;width:800px;float: left;outline: 0;margin-top:3px;}
+   a.remark{float: left;height:24px;width:24px;background: url(../../img/delete_checked.png) no-repeat center;background-size: 20px 20px;}
+   a.remarkOth{margin-left:3px;float: left;height:24px;width:24px;background: url(../../img/pan.png) no-repeat center;background-size: 20px 20px;}
+  .answItem span, span.no-hover{margin:0 0 0 5px;padding:3px 5px 3px 5px;background: #d7d7d7;border-radius: 7px;cursor:pointer;}
+  .answItem span:hover{background: #e7e7e7;}
+  span.no-hover{background: none;}
+  span.selected , span:hover.selected{background:#d7d7d7; }
+  span.answLet{margin:0;padding:0;background: transparent;}
+  span.answLetR{margin:0;padding:3px 5px 3px 10px;background: transparent;}
+  span:hover.answLetR {background: none;}
+  div.manageAnsw{margin:5px 0 0 55px;float: left;width:100%;}
+  div.answItem .manageAnsw span{margin-right:20px;border:none;background: none;color:#8eb4e3;}
+  div.answItem .manageAnsw span:hover {color:#014FAF;}
+  span.comment{color:red;font-style: italic;}
+
+  div.btn{float:left;width:100%;margin-bottom: 5px;}
+ .btn span{margin-right:5px;cursor:pointer;color:#8eb4e3;font-weight: normal;text-align: center;padding:3px;float: left;border:1px solid #e7e7e7;}
+ .btn span:hover {color:#fff;border:1px solid #e7e7e7;background:#cfdff3;}
+
+ INPUT[type="text"]:focus
+{
+    /*outline: 1px solid lime;*/
+    padding-left: 2px;  
+    box-shadow:0 0 2px 0 #0066FF;
+    -webkit-box-shadow:0 0 9px 0 #86AECC;
+    z-index:1; 
+    border-radius: 5px;  
+}

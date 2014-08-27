@@ -1,0 +1,116 @@
+﻿.mainfield{
+			
+			background:#fff;
+			border:1px solid #e7e7e7;
+			
+			}
+ul#lineTabs2{
+	position:relative;
+	top:-10px;
+	height:30px;
+	list-style:none;
+	float:left;
+	padding:0px;
+	padding-right:30px;
+	padding-left:10px;
+    margin-top:10px;
+	
+}
+
+#lineTabs2 li{
+	display:block;
+	float:left;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	overflow:visible;
+	text-align:center;
+	width:100px;
+	
+}
+#lineTabs2 li a{
+	float:left;
+	color:#8eb4e3;
+	display:block;
+	height:16px;
+	margin:0 0 0 30px;
+	padding:7px 20px;
+	position:relative;
+	text-decoration:none;
+	width:100px;
+}
+#lineTabs2 li a.activelong{
+	left:0;
+	margin-left:-10px;
+	background:#8eb4e3;
+	border:1px solid ;
+	border-radius:5px 5px 0 0;
+	color:white;
+	z-index:50;
+	width:130px;
+}
+#lineTabs2 li a.activelong:hover{
+	
+	margin-left:-10px;
+	background:#8eb4e3;
+	border:1px solid #fff ;
+	border-radius:5px 5px 0 0;
+	color:white;
+	z-index:50;
+}
+
+
+#lineTabs2 li a:hover{
+	
+	border:1px solid #fff ;
+	border-radius:5px 5px 0 0;
+	background:#d5e3f4;
+	color:#8eb4e3;
+	z-index:30;
+}
+
+
+div.content  {position:relative;float:left;margin:5px 10px;width:830px;}
+.content a{text-decoration:none;}
+
+div.next_prev{width:100%;float: left;margin-top:5px;padding-bottom: 10px;}
+
+div.prev{float: left;background: url(../../img/rwb.png) no-repeat  left center ;background-size: 16px 16px;}
+.prev a{float: left;padding-left:20px;}
+
+div.next{float: right;background: url(../../img/rwnu.png) no-repeat  right center ;background-size: 16px 16px;}
+.next a{float: left;padding-right:20px;}
+
+.next a:hover, .prev a:hover{color:#7093bf;}
+
+
+table.subjects{float:left;width:100%;}
+.subjects p{padding:0;margin:3px 0 0 3px;float:left;}
+.subjects span{}
+.subjects span.alert{float:left;margin:0 3px 0 0;color:#a7a6aa;}
+
+.subjects td{border:1px solid #e7e7e7; padding:0;}
+div#info{float:left;width:100%;cursor: pointer;}
+#info p{color: #8eb4e3;}
+tr#topH{border:none;background: #dfdee1;margin-bottom:10px;}
+tr#topH p{margin:3px;}
+#topH td{border:none;color:#a7a7a7;} 
+
+
+td#tasks{width:550px; cursor: pointer;}
+#tasks span{float:left;width:100%;height:100%;color:#000;}
+
+div#procent{float:left;height:5px;margin:0;position:relative;top:4px;left:-1px;}
+
+#dateInfo p{float:left;width:100%;text-align:center;line-height:14px;}
+
+div.droped{width:100%;float:left;}
+
+.droped ul{float:left;width:95%;}
+
+.droped img{margin:0;height:14px;width:14px;}
+.droped span{float:left;color: #8EB4E3;cursor:pointer;}
+
+.droped li{list-style:none;float:left;width:95%;}
+
+/*div#info{cursor: pointer;}*/

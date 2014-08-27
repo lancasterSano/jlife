@@ -1,0 +1,3 @@
+[submodule "lib/jquery.popup"]
+	path = lib/jquery.popup
+	url = https://github.com/jlifesystem/JQUERY.POPUP.git

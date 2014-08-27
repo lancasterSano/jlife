@@ -1,0 +1,14 @@
+@import url(../../css/do/style_journalmain.css);
+td.left{width:21%;}
+/*td.right{width: 655px;}*/
+td.headerItemSingle{height:70px;}
+td.tabHeader{height: 70px;}
+.headerItem span, .headerItemSingle span {
+					margin: 0px -13px;
+					}
+.headerItem span{position: relative;top:11px;}					
+
+div.colRow{width:100%;border-left: 1px solid #b7b7b7;float: left;}
+td.colItem{ vertical-align:middle;margin:0;height: 24px;width:40px;border:1px solid #b7b7b7;border-top: none;border-left: none;text-align: center;cursor: pointer;}
+td.noLesson , td:hover.noLesson{background-image:url(../../img/noLessonResponsible.png);}
+

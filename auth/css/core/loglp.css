@@ -1,0 +1,29 @@
+      body{ background:#000;/*color:#fff;*/font-size:.9em; }
+      .msg{ background:#aaa;padding:.2em; border-bottom:1px #000 solid}
+      .old{ background-color:#246499;}
+      .new{ background-color:#3B9957;}
+    .error{ background-color:#992E36;}
+
+
+.msg b {
+	display: inline-block;
+	min-width: 8px;
+    padding: 2px 6px 2px 6px;
+	margin: 2px 10px 2px 0px;
+	background-color: #e8e8e8;
+	color: #000;
+	text-align: center;
+}
+
+.msg div, .msg div.data {
+	display: -webkit-inline-box;
+}
+.msg div.data {
+	margin: 2px;
+	padding: 2px;
+	background: #6bcdff;
+	min-width: 818px
+}
+.msg div.data table.controller tr td:first-child {
+	min-width: 150px;
+}

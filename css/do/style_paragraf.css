@@ -1,0 +1,17 @@
+
+/*scroll here => change conspect width to 100%*/
+div.conspectCont{	float: left;
+					width: 960px;
+					overflow-y: scroll;
+					overflow-x: hidden;}
+.conspectCont h3{margin: 0 0 5px 0;}
+.conspectCont ul{padding:0 0 0 41px;margin:0;}
+.conspectCont ul li{color:#8eb4e3; list-style: none;}
+
+div.parItem{width:933px;}
+.parItem h3{margin-top: 5px;}
+.parItem span{width:100%;display: block;float:none;color:#000;font-weight:bold;margin:0 0 0 3px;}
+.parItem p{word-break: break-word; width:98%;color:#000;font-weight:normal;text-indent:50px;margin:0 0 0 1.5%;text-align:justify;}
+
+a#idForCursor{cursor:pointer;}
+

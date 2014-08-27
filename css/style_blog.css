@@ -1,0 +1,52 @@
+.mainfield{
+			
+			background:#fff;
+			border:1px solid #e7e7e7;
+			
+			}
+
+div.content  {margin:10px;position:relative;}
+.content a{text-decoration:none;}
+
+div.postssum{width:100%;border-bottom:1px solid #e3e3e3;height:23px;}
+.postssum img{height:20px;width:20px;margin:0;}
+.postssum span{margin:0 0 0 3px;}
+
+div.post{width:100%;height:auto;display:block;float:left;border-bottom:1px solid #d7d7d7;margin-bottom:10px;}
+img#divide{margin:10px  auto;position:relative;width:100%;height:3px;}
+div.title{width:100%;margin:0;float:left;}
+.title span{float:right;margin:0;color:#bbb;font-weight:bold;}
+.title a {color:#8eb4e3;font-weight:bold;height:auto;margin:0 0 0 10px ;}
+div.author{margin:5px 0px 5px 40px; width:790px;float:left;}
+.author span{margin:0;}
+.author a {color:#8eb4e3;font-weight:normal;margin:0 0 0 5px;}
+a.deletePost{float:right;margin:0 10px 0 0;}
+div.text{width:810px;margin:0px 10px 10px 10px;float:left; word-break:break-all;}
+.text p{width:100%;height:auto;margin:0;font-size:auto;display:block; text-indent:30px;}
+ 
+div.bottominfo{margin:5px;} 
+.bottominfo span{margin:0;}
+.bottominfo img{margin:0;height:20px;}
+div.hashtag{float:left;width:100%;margin-bottom:5px;}
+a.metka{width:auto;padding:0 5px 0 5px;margin:0 5px 0 5px;color:#000;}
+div.like{width:50px;margin:0 0 0 15px;float:left;}
+.like a{margin:0 0 0 5px;}
+
+div.out{margin:0 0 0 50px;width:auto;float:left;}
+.out a{margin:0 0 0 5px;color:#8eb4e3;}
+div.comm{float:right;margin:0 35px 7px 0;}
+.comm a{margin:0 0 0 5px;color:#8eb4e3;}
+.comm span{margin:0 0 0 5px; }
+div.more{float:right;margin:0 0 0 0;}
+.more a{color:#8eb4e3;}
+
+div.centeredm{margin:0px 50px 0 50px;min-height:20px;text-align: center;}
+.centeredm span{float:left;display:block; width: 100%; margin:0 auto;color:#b7b7b7;text-align: center; }
+
+
+div.warningMessage{width:100%;max-height:500px;min-height:20px;float:left;margin: 15px 0 15px 0px;padding: 3px 0 0 0;}
+div.centeredm{margin:0px 50px 0 50px;min-height:20px;text-align: center;}
+.centeredm span{float:left;display:block; width: 100%; margin:0 auto;color:#b7b7b7;text-align: center; }
+
+
+/*---------------------------------------------------------------------------------*/

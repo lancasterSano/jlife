@@ -1,0 +1,129 @@
+.mainfield{
+			
+			background:#fff;
+			border:1px solid #e7e7e7;
+			
+			}
+ul#lineTabs2{
+	position:relative;
+	top:-14px;
+	height:30px;
+	list-style:none;
+	float:left;
+	padding:0px;
+	padding-right:30px;
+	padding-left:10px;
+	
+}
+
+#lineTabs2 li{
+	display:block;
+	float:left;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	overflow:visible;
+	text-align:center;
+	width:100px;
+	
+}
+#lineTabs2 li a{
+	float:left;
+	color:#8eb4e3;
+	display:block;
+	height:16px;
+	margin:0 0 0 30px;
+	padding:7px 20px;
+	position:relative;
+	text-decoration:none;
+	width:100px;
+}
+#lineTabs2 li a.activelong{
+	left:0;
+	margin-left:-10px;
+	background:#8eb4e3;
+	border:1px solid ;
+	border-radius:5px 5px 0 0;
+	color:white;
+	z-index:50;
+	width:180px;
+}
+#lineTabs2 li a.activelong:hover{
+	
+	margin-left:-10px;
+	background:#8eb4e3;
+	border:1px solid #fff ;
+	border-radius:5px 5px 0 0;
+	color:white;
+	z-index:50;
+}
+
+
+#lineTabs2 li a:hover{
+	
+	border:1px solid #fff ;
+	border-radius:5px 5px 0 0;
+	background:#d5e3f4;
+	color:#8eb4e3;
+	z-index:30;
+}
+
+
+div.content  {position:relative;float:left;width:100%;margin-bottom:10px;margin-top:5px;}
+.content a{text-decoration:none;}
+
+div.subjSearch{float:left;margin:5px 5px 10px 5px;width:840px;}
+.subjSearch img{margin:0;float:left;width:20px;height:20px;}
+.subjSearch span{margin:1px 0 0 5px;float:left;}
+
+div.subjTable{width:840px;margin:0 5px;float:left;}
+div.subjLeft{float:left;width:417.5px;!border:1px dotted;margin-right:2.5px;}
+div.subjRight{float:left;width:417.5px;!border:1px dotted;margin-left:2.5px;}
+
+table.subjItem{width:100%;float:left;border:1px solid #e7e7e7;border-bottom:0;margin-bottom:5px;}
+.subjItem td{border-bottom:1px solid #e7e7e7 ;height:20px;color:#b7b7b7;text-align:center;color:#8eb4e3;vertical-align: top;}
+.subjItem span , p {float:left;margin:3px 0 3px 5px;}
+.subjItem p{font-weight:normal;margin-left:15px;}
+.subjItem img{float:right;margin:2px;height:20px;width:20px;}
+a.drop{float:left;}
+a:hover.drop{background: url("../img/secure.png") no-repeat top left;}
+
+tr.subTitle span{color:#8eb4e3;font-weight:normal;} 
+p.nameSchool {float:right;color:#8eb4e3;margin:3px 5px 3px 0px;font-weight:normal;font-style: italic;}
+
+tr.colsNamed td{border:1px solid #e7e7e7;border-top: 0;border-left:0;color:#b7b7b7;}
+
+td.NoteDescription{width:770px;}
+td.NoteDescription p{color:#b7b7b7;margin:0 3px 0 0;}
+td.NoteDescription span{margin-left:20px;}
+
+tr.subTitle td{border: none;}
+
+td.NoteDescription span.paragr{margin-left:40px;}
+
+tr.algebra{background:#f8d1d5 ; }
+tr.algebra span{color:#000;font-weight:bold;}
+tr.rowPaintedAlg{background:#fdf3f4;}
+tr.geometria{background:#c69398 ;}
+tr.geometria span{color:#000;font-weight:bold;}
+tr.rowPaintedGeo{background:#f1e4e5;}
+tr.physic{background:#f5c082;}
+tr.physic span{color:#000;font-weight:bold;}
+tr.rowPaintedPhy{background:#fcefe0;}
+tr.informatic{background:#a0d0f5;}
+tr.informatic span{color:#000;font-weight:bold;}
+tr.rowPaintedInf{background:#e7f3fc;}
+tr.chemistry{background:#4ca7ed;}
+tr.chemistry span{color:#000;font-weight:bold;}
+tr.rowPaintedChe{background:#d2e9fa;}
+
+tr.archiv{background:#a7a6aa;}
+tr.archiv span{color:#000;font-weight:bold;}
+tr.archiv p{color:#000;}
+tr.rowPaintedArh{background:#e9e9ea;}
+
+div.passedSubj{width:840px;float:left;border-bottom:1px solid #e7e7e7;margin:5px 5px 3px 5px;color:#b7b7b7;}
+
+div.passedtitle{width:420px;float:left;}
+
+

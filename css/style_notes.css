@@ -1,0 +1,205 @@
+.mainfield{
+			background:#fff;
+			border:1px solid #e7e7e7;
+			
+			}
+
+div.content  {margin:10px;position:relative;}
+.content a{text-decoration:none;}
+
+div.notesnum{width:100%;border-bottom:1px solid #e3e3e3;height:23px;}
+.notesnum img{height:20px;width:20px;margin:0;}
+.notesnum span{margin:0 0 0 3px;}
+
+/* Style new note 
+div.createnew{width:100%;height:60px;!border:1px dotted;margin:5px 0 0 0;}
+
+div.senderImg{float:left;height:100%;width:60px;!border:1px dotted;}
+.senderImg img{margin:0;height:60px;width:60px;}
+
+div.enterNew{float:left;margin:0 5px 0 5px;width:700px;height:100%;!border:1px dotted;}
+.enterNew textarea:focus{border:3px solid #cacaca;border-radius:3px; color:#000000; font-style: normal;}
+.enterNew textarea{width:99%;height:50px;border:3px solid #cacaca;border-radius:3px; color:#cacaca; font-style: italic;}
+
+
+div.postNew{float:left;width:60px;height:100%;}
+.postNew img{width:40px;height:40px;margin-left:7px;}
+end */
+
+/* Style new note */
+div.createnew , div.createnewUn {width:100%;!height:60px;!border:1px dotted;margin:5px 0 0 0;float:left;max-height: 300px;}
+/*c фокусом*/
+div.createnew .enterNew{float:left;margin:0 5px 0 5px;width:700px;height:100%;!border:1px dotted;}
+div.createnew .enterNew textarea{width:99%;height:50px;border:3px solid #cacaca;border-radius:3px; }
+/*без фокуса*/
+div.createnewUn .enterNew{float:left;margin:0 5px 0 5px;width:700px;height:100%;!border:1px dotted;}
+div.createnewUn .enterNew textarea{width:99%;height:50px;border:3px solid #cacaca;border-radius:3px; color:#cacaca; font-style: italic;}
+/*общее*/
+/*-- видны ава и кнопка отправить -----*/
+div.senderImg{float:left;height:100%;width:60px;!border:1px dotted;}
+div.postNew{
+    float:left;
+    width:40px;
+    height:40px;
+    background:url("../img/note.png") left no-repeat;
+    background-size:40px 40px;
+    margin:8px 0 0 7px;
+}
+
+div:hover.postNew{background:url("../img/note_h.png") left no-repeat;background-size:40px 40px;cursor: pointer;}
+textarea {font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif; padding: 0.3ex 0ex 0ex 0.4ex; }
+
+.senderImg img{margin:0;height:60px;width:60px;}
+.enterNew textarea:focus{border:3px solid #cacaca;border-radius:3px;}
+/* end */
+
+div.postedOld{!border:1px dotted;margin:5px 0 5px 0; width:100%;min-height:140px;float:left;border-bottom:1px solid #eee;}
+
+
+img.senderImgPost {height:60px;width:60px;float:left;margin:5px 5px 5px 0;}
+.postedOld span{margin:0 0 0 5px;}
+span#right{float:right;margin:0 15px 0 5px;color:#b7b7b7;}
+
+
+
+
+div.CommentManage{float:left; width:100%;height:20px;!border:1px dotted;margin:5px 0 5px 0;}
+div.likediv{height:20px;width:165px;float:left;margin:0 0 0 10px;}
+.likediv img{height:20px;width:20px;margin:0;}
+
+
+div.Manage{float:left;height:100%;width:515px;margin:0 0 0 140px;}
+
+div.comManage{float:left;width:200px;height:100%;}
+.comManage div.empty{float:left;height:20px; background:url("../img/empty.png") left no-repeat;background-size:16px 16px;margin:0; padding:0 0 0 18px;}
+.comManage div.expanded{
+    float: left;
+    width: 218px;
+    height: 20px;
+    background: url("../img/full.png") left no-repeat;
+    background-size: 16px 16px;
+    margin: 0 0 0 -28px;
+    padding: 0 0 0 18px;
+    color:#8eb4e3;
+}
+span.changetext{float:left;width:164px;color:#000;}
+.comManage div.abbreviated{
+    width: 218px;
+    float: left;
+    height: 20px;
+    background: url("../img/full1.png") left no-repeat;
+    background-size: 16px 16px;
+    margin: 0 0 0 -28px;
+    padding: 0 0 0 18px;
+    color:#8eb4e3;
+}
+.comManage span{margin:0 5px 0 5px;}
+
+div.postManage{float:left;width:315px;}
+/*.postManage a{float:right;margin:0 10px 0 0px;max-width:210px;min-width:52px;}*/
+div.deleteNote{float:right;}
+.deleteNote span{color:#8eb4e3;margin: 0 15px 0 5px; cursor: pointer;}
+
+div.warningMessage{width:100%;max-height:500px;min-height:20px;float:left;margin: 15px 0 15px 0px;padding: 3px 0 0 0;}
+div.activeLoad span{
+    !float: left;
+    height: 20px;
+    background: url("../img/loader2.gif") no-repeat;
+    background-position: 40% 2px;
+    background-size: 16px 16px;
+    !margin: 0 0 0 -28px;
+    !padding: 0 0 0 18px;
+}
+div.centeredm{margin:0px 50px 0 50px;min-height:20px;text-align: center;}
+.centeredm span{float:left;display:block; width: 100%; margin:0 auto;color:#b7b7b7;text-align: center; }
+
+
+/*NoteComment*/
+div.NoteComment{cursor:pointer;float:left;!border:1px dotted;margin:5px 50px 10px 50px ;border-bottom:1px solid #eee;}
+
+div.NoteCommentLast{cursor:pointer;!border:1px solid;margin:20px 0px 0 50px ;min-height:90px;max-height:300px;height:100px;}
+
+div.avalike{margin:0 5px;max-width:60px;height:60px;float:left;}
+div.CommentImage{margin:0;height:60px;widhth:100%;!border:1px solid;}
+.CommentImage img{height:60px;width:60px;margin:0;padding:0;}
+
+
+
+div.CommentTitle{margin:0 0 0 20px;!border:1px solid;float:left;height:20px;width:640px;}
+.CommentTitle a{margin:0;}
+.CommentTitle span{margin:0 5px 0 5px;float:right;color:#b7b7b7;}
+
+div.CommentText{!border:1px solid; margin:0 0 0 40px;width:670px;float:left;min-height:20px;max-height:850px;}
+.CommentText span{margin:0;width:100%;max-height:850px;height:auto;!border:1px solid;display:block;}
+
+a#hashtag{color:#8eb4e3;}
+
+div.last_added{float:left;width:100%;!border:1px dotted;}
+
+div.last_addedTime {float:right;height:100%;!border:1px dotted;}
+.last_addedTime span {float:right;color:#b7b7b7;}
+/*
+div.createnewComment{width:100%;height:60px;!border:1px dotted;margin:0 0 10px 50px;float:left;}
+
+div.senderImgCom{float:left;height:100%;width:60px;!border:1px dotted;}
+.senderImgCom img{margin:0;height:60px;width:60px;}
+
+div.enterNewCom{float:left;margin:0 5px 0 5px;width:600px;height:100%;!border:1px dotted;}
+.enterNewCom textarea{width:99%;height:50px;border:3px solid #cacaca;border-radius:3px;}
+.enterNewCom textarea:focus{border:3px solid #cacaca;border-radius:3px;}
+
+div.postNewCom{float:left;width:60px;height:100%;}
+.postNewCom img{width:40px;height:40px;margin-left:7px;}
+*/
+/*c фокусом*/
+div.c_new_comm{width:100%;height:60px;!border:1px dotted;margin:0 0 10px 50px;float:left;}
+div.c_new_comm div.enterNewCom{float:left;margin:0 5px 0 5px;width:600px;height:100%;!border:1px dotted;}
+div.c_new_comm .enterNewCom textarea{width:99%;height:50px;border:3px solid #cacaca;border-radius:3px;}
+/*-- видны ава и кнопка отправить -----*/
+div.c_new_comm div.senderImgCom{float:left;height:100%;width:60px;!border:1px dotted;}
+div.c_new_comm div.postNewCom {
+    cursor: pointer;
+    float:left;
+    width:40px;
+    height:40px;
+    background:url("../img/mail.png") left no-repeat;
+    background-size:40px 40px;
+    margin:8px 0 0 7px;
+}
+div.c_new_comm div:hover.postNewCom {
+    background:url("../img/mail_h.png") left no-repeat;
+    background-size:40px 40px;
+}
+/*без фокуса*/
+div.c_new_commUn{width:100%;height:30px;!border:1px dotted;margin:0 0 10px 50px;float:left;}
+div.c_new_commUn div.enterNewCom{float:left;margin:0 65px 0 65px;width:600px;height:100%;!border:1px dotted;}
+div.c_new_commUn .enterNewCom textarea{width:99%;height:20px;border:3px solid #cacaca;border-radius:3px; color:#cacaca; font-style: italic;}
+/*-- скрыты ава и кнопка отправить ----*/
+div.c_new_commUn div.senderImgCom{float:left;height:100%;width:60px;!border:1px dotted; display: none;} 
+div.c_new_commUn div.postNewCom {
+    cursor: pointer;
+    float:left;
+    width:40px;
+    height:40px;
+    background:url("../img/mail.png") left no-repeat;
+    background-size:40px 40px;
+    margin:8px 0 0 7px;
+    display: none;
+}
+textarea {font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif; padding: 0.3ex 0ex 0ex 0.4ex; }
+/*общее*/
+.senderImgCom img{margin:0;height:60px;width:60px;}
+.enterNewCom textarea:focus{border:3px solid #cacaca;border-radius:3px;}
+
+
+div.CommentBottom{height:20px;!border:1px solid;display:block;margin:3px 0 3px 0;float:left;}
+
+div.commentLike{!border:1px solid;margin:0;padding:0;height:100%;width:463px;float:left;}
+.commentLike img{height:20px;width:20px;margin:0 0 0 10px;padding:0;}
+.commentLike span{margin:0 0 0 5px;}
+
+ div.commentManage{height:100%;!border:1px solid;float:left;width:260px;}
+.commentManage a{margin:0 5px 0px 0 ;float:right;max-width:210px;min-width:52px;}
+
+/*---------------------------------------------------------------------------------*/
+

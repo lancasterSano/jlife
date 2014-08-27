@@ -1,0 +1,9 @@
+.mainfield{
+			
+			background:#fff;
+			border:1px solid #e7e7e7;
+			height:auto;
+			}
+
+div.content  {margin:5px 10px;position:relative;float:left;width:830px;}
+.content a{text-decoration:none;}

@@ -1,0 +1,14 @@
+div.mainfield{
+	        min-height: 540px;
+			background:#fff;
+			border:1px solid #e7e7e7;
+			
+			}
+
+div.content  {margin:10px;position:relative;}
+.content a{text-decoration:none;}
+
+body {
+	font-size: 15px;
+	font-family: "Helvetica Neue";
+}

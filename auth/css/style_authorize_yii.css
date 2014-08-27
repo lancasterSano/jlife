@@ -1,0 +1,195 @@
+@charset "utf-8";
+img{border:none;}
+a:visited{color:none;}
+
+body  {
+	font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	background: #fdfdfd;
+	
+	width:1024px;
+	margin: 0;
+	padding: 0;
+	
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/*############################*/
+/* DEBUG */
+div.debug {
+	/*float: left;*/
+	min-height: 50px;
+	width: 100%;
+	/*display: block;*/
+	/*position: relative;*/
+	background-color: rgba(242,246,248,1);
+	font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: rgba(99,147,193,1);
+	margin: 0 0 10px 0;
+}
+div.debug span.debug {
+	margin: 0 0 0 10px;
+	float:left; 
+}
+div.debug span.debug b { 
+	font-weight: 900;
+	margin: 0 5px 0 5px;
+}
+/* END DEBUG */
+/*############################*/
+
+.twoColLiqLt{height:100%; margin:0 auto;background:#fdfdfd;}
+
+.twoColLiqLt #container { 
+position:static;
+	width: 1020px;  /* this will create a container of the browser width */
+	background: #fff;
+	height:100%;
+	padding:0;
+	margin-top:30px;
+/*	margin: 0 ; /* the auto margins (in conjunction with a width) center the page*/
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+
+
+div#mainContent {
+	?border:1px solid;
+	position:relative;
+	?left:170px;
+	display:block;
+	float:left;
+	margin:0 0 0 0px;
+	?width:77%;
+	width:100%;
+	background: url(../img/bg_1.png) #fdfdfd center no-repeat  ;
+	min-height:500px;
+	height:100%;
+	
+} 
+
+
+.twoColLiqLt div.menu{margin:0;width:1024px;height:30px;background:#a6a6a6;border-bottom:3px solid #8eb4e3;border-radius: 0 0 3px 3px;}
+.twoColLiqLt .menu img{float:left;margin:10px 30px 0;height:50px;}
+.menu a{ text-decoration:none;
+		 color: #fff;}
+.menu a:hover{text-decoration:none;
+		 color: #ccc;}	
+div.registr	{float:right;margin: 5px 30px 0 0;}
+	   
+
+/*контент*/
+
+.mainInfo img{height:70px;width:70px;}
+
+div.mainfield{width:100%;height:100%;}
+
+ div.registration{
+ 	margin:115px 0 0 0;
+ 	float:right;width:300px;
+ 	/*height:150px;*/
+ 	position:relative;
+ 	color:#8eb4e3;
+ 	font-weight:bold;
+ 	border: rgba(165,165,165,0.6);
+ 	border-radius: 8px;
+ 	/*background-color: #F1F1F1;*/
+ 	padding: 5px 0px 15px 20px;
+ }
+div.enter{margin-left:50px;font-size:20px;margin-bottom: 10px;}
+
+div.Registrlbl{float:left;width:45px;height:64px;}
+.Registrlbl span{display:block;margin-top:10px;}
+
+span#correction{margin-top:13px;}
+
+div.RegistrFields{float:left;width:300px;}
+.RegistrFields input{
+	/*float: right;*/
+	margin:2px 0 0 20px;width:60%;
+	border:1px solid #8eb4e3;
+	box-shadow:none;
+	border-radius:3px;
+}
+.RegistrFields input[type="submit"]{
+	position: relative;left:66px;
+}
+.RegistrFields label{
+	/*float:	left;*/
+}
+.RegistrFields div.row{position: relative;}
+ div.row label{width: 60px;display: inline-flex;}
+.RegistrFields div.errorMessageCont{
+	min-height: 5px;
+}
+.RegistrFields div.errorMessage{
+	top: 11px;
+	right: -117px;
+	font-weight: normal;
+	font-style: italic;
+	padding-left: 20px;
+}
+
+div.notify{margin-top:5px;float:left;}
+span#notfound{float:left;margin:5px 0 0 15px;color:black;}
+
+div.texting{
+	width: 65%;
+	float: left;
+	/*font-weight: bold;*/
+	position: absolute;
+	background: /*RGBA(183,183,183,0.6);*/ rgba(241, 241, 241, 0.7);
+	border-radius: 11PX;
+	padding: 5px;
+}
+.texting h1{margin-left:40px;color:#8eb4e3;margin-top:40px;}
+.texting table{margin:20px 0 0 40px;font-weight:bold;}
+
+div.downbar{margin:30px auto;height:30px;float:left;width:100%;margin-bottom:0;}
+
+div.ulist{width:auto;margin:0 auto;}
+.ulist a{ text-decoration:none; color:#8eb4e3;font-weight:bold;}
+.downbar ul{width:100%;padding:0;margin:0 0 0 50px;}
+.downbar li{list-style:none;display:inline;margin-left:60px;}
+
+
+
+div.downbar2{
+	margin:-80px 80px 0 0;
+	float:right;
+	width: 300px;
+	position: relative;
+}
+div.ulist2{width:auto;margin:0;}
+.ulist2 a{ text-decoration:none; color:#8eb4e3;font-weight:bold;}
+.downbar2 ul{width:100%;padding:0;margin:0 0 0 50px;}
+.downbar2 li{list-style:none;display:block;margin-left:60px; text-align: right;}
+
+
+
+div.downbar3{
+	margin:-40px 40px 0 0;
+	float:right;
+	width: 300px;
+	position: relative;
+}
+div.ulist3{width:auto;margin:0;}
+.ulist3 a{ text-decoration:none;}
+.downbar3 ul{width:100%;padding:0;margin:0; }
+.downbar3 li{list-style:none;display:inline; float: right; padding: 5px; cursor: pointer;}
+.downbar3 ul li a img{width:40px; height:40px; cursor: pointer;}
+
+
+
+div.downbar4{
+	margin: -170px 40px 0 0;
+	float: right;
+	width: 260px;
+	position: relative;
+	padding-top: 50px;
+}
+div.ulist4{width:auto;margin:0;}
+.ulist4 a{ text-decoration:none; }
+.ulist4 a{color:#8eb4e3;font-weight:bold;}
+.downbar4 ul{width:100%;padding:0;margin:0; }
+.downbar4 li{list-style:none;display:inline; float: right; padding: 5px; cursor: pointer;}
+.downbar4 ul li a img{width:25px; height:25px; cursor: pointer; margin: 0 0 -10px 10px;}

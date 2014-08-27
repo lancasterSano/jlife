@@ -1,0 +1,70 @@
+
+/*scroll here => change  width to 100%*/
+
+
+div.questAll{float: left;width:100%;}
+
+div.cutOp{float: left;width:20px;height:20px;background:url(../../img/rwn.png) no-repeat center ;background-size: 15px 15px;}
+/*div.cutCl{float: left;width:20px;height:20px;background:url(../../img/rwnu.png) no-repeat center ;background-size: 15px 15px;}*/
+div.cutCl{float: left;width:20px;height:20px;background:url(../../img/rwnu.png) no-repeat center ;background-size: 15px 15px;}
+
+div.type{float: left;width:97%;}
+.type span{margin:0;width:100%;}
+span.count{float: none;margin:0;}
+
+div.questLvl{margin:10px 0 0 0px;width:98%;float: left;}
+
+div.questName{float: left;width:100%;}
+.questName div{display: inline-block;}
+
+.questName span{font-weight: bold;}
+.questName .finnish  span{font-weight: normal;}
+.questName textarea{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;float:left;width:769px;height:40px;border: none;resize:none;border:1px solid #e7e7e7;outline:0;border-radius: 3px;margin-left:5px;}
+textarea.quest{width: 925px;height:100px;float: left;margin:0;}
+div.add{float: right;width:145px;border:1px solid #e7e7e7;margin-right:3px;}
+.add img{float: right;margin:0 10px 0 0px;}
+.add span{margin:0;color:#8eb4e3;cursor: pointer;font-weight: normal; width: 98%;
+padding-left: 2%;}
+
+div.questTools{float: left;margin: 5px 0;display: none;}
+.questTools p{margin: 0  5px ;color:#000;text-indent: 30px;word-break: break-word;}
+p.empty{color: #e7e7e7;font-style: italic;margin: 0 0 0 5px ;}
+
+div.parItem{width: 933px;}
+
+ div.styled-select{margin:0;display:block;overflow: hidden;float:left;
+   background: url(../../img/arrow.png) no-repeat  23px  #fff;width:40px;background-size: 12px 10px}
+   .styled-select select{
+   	outline: 0;
+   background: transparent;
+   width: 100%;
+   padding: 0px;
+   color:#b7b7b7;
+   font-style:italic;
+   line-height: 1;
+   text-align: center;
+   border: 1px solid #e7e7e7;
+   border-radius: 0;
+   height: 18px;
+   -webkit-appearance: none;
+   }
+
+  div.questText{margin:10px 0 0 10px;width:100%;float: left;}
+  div.manage{width:104px;float: left;margin-left:5px;height:100%;}
+  .manage img{margin:0 3px 0 0;}
+    .manage span{cursor:pointer; color:#8eb4e3;font-weight: normal;text-align: center; height:19px;float: left;border:1px solid #e7e7e7;width:100%;}
+  .manage span:hover {color:#fff;border:1px solid #e7e7e7;background:#cfdff3;}
+ div.btn{float:left;width:100%;margin-bottom: 5px;}
+ .btn span{margin-right:5px;cursor:pointer;color:#8eb4e3;font-weight: normal;text-align: center;padding:3px;float: left;border:1px solid #e7e7e7;}
+ .btn span:hover {color:#fff;border:1px solid #e7e7e7;background:#cfdff3;}
+
+ /*editor*/
+ .cke_bottom{float:none;}
+div.editorContainer{width: 100%;display: inline-block;margin-top:10px;}
+
+
+/*Text reset*/
+.partext, 
+.partext span , 
+.partext p , 
+.partext img{float:none;}

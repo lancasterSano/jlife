@@ -1,0 +1,21 @@
+
+
+/*scroll here => change  width to 100%*/
+
+
+div.conspect{float:left;width:99.5%;margin-top:5px;border:1px solid #e7e7e7;}
+.conspect div{padding-left:3px;}
+.conspect span{margin:0;}
+
+
+div.prepodOwner{float:left;}
+.prepodOwner a{margin-left:10px;}
+
+div.school{width:100%;float:left;margin-top:5px;}
+
+div.pupilNumb{float:left;width:210px;}
+.pupilNumb img{margin:0 5px 0 0;}
+
+div.schName{float:left;width:200px;}
+
+div.more{float:right;margin-right:10px;}

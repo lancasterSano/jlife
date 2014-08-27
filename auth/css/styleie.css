@@ -1,0 +1,284 @@
+@charset "utf-8";
+img{border:none;}
+a:visited{color:none;}
+body  {
+	font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	background: #fcfcfc;
+	
+	width:1024px;
+	margin: 0;
+	padding: 0;
+	
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.twoColLiqLt{height:768px; margin:0 auto;background:#fcfcfc;}
+
+.twoColLiqLt #container { 
+position:static;
+	width: 1020px;  /* this will create a container of the browser width */
+	background: #fcfcfc;
+	height:760px;
+	padding:0;
+	margin-top:30px;
+/*	margin: 0 ; /* the auto margins (in conjunction with a width) center the page*/
+	text-align: right; /* this overrides the text-align: center on the body element. */
+} 
+
+
+
+div#mainContent {
+	?border:1px solid;
+	position:relative;
+	?left:170px;
+	display:block;
+	float:left;
+	margin:-20px 0 0 0px;
+	?width:77%;
+	width:820px;
+	height:100%;
+	
+} 
+
+
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.twoColLiqLt div.menu{margin:0;widht:1024px;}
+.twoColLiqLt .menu img{float:left;margin:10px 30px 0;height:50px;}
+.twoColLiqLt .menu ul{background:#a6a6a6;height:30px;margin:0;width:950px;border-bottom:3px solid #8eb4e3;border-radius: 0 0 3px 3px;}
+.menu li{display:inline;
+		 float:left;
+		 list-style:none;
+		 margin:5px 25px 0 0;}
+.menu li:first-child{ margin-left:5px;}
+.menu li:last-child{margin-left:60px;height:20px;}
+.menu a{ text-decoration:none;
+		 color: #fff;}
+.menu a:hover{text-decoration:none;
+		 color: #ccc;}	
+		
+		   
+		   .styled-select select{
+   background: transparent;
+   width: 168px;
+   padding: 5px;
+   color:#999;
+   font-style:italic;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 25px;
+   -webkit-appearance: none;
+   }
+   
+   .styled-select {
+  width:170px;height:23px;
+   overflow: hidden;
+   background: #ddd;
+   
+   }
+   
+  .menu .search{position:relative;height:20px;width:auto;display:block;margin:0;float:right;top:-22px;left:86px}
+  .menu .search img {height:20px;margin:0;}
+  .menu .search span{margin:2px 0px 0 5px;color:#fff;font-weight:bold;}
+
+div.union{width:820px;height:265px;}
+div.left_side{width:620px;}
+div.right_side{width:240px;float:right;position:relative;top:-200px;}
+.right_side img#ava{width:172px;float:right;height:auto;box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);}
+div.name{height:80px;width:auto;margin:0  auto;}
+img#long { height:30px; width:auto;margin:15px 0 0 20px ;display:inline;float:right;}
+img#short { height:30px; width:auto;margin:15px 0 0 0;display:inline;float:right;}
+img#pic{width:640px;margin:0;height:142px; 
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);}
+.name span{font:35px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#8eb4e3;font-weight:900;}
+
+		   
+		   
+		   
+		   
+		   
+		   
+.switch, .switch div{float:left;background:none;width:100%;margin:5px 0 5px 0;height:auto;? border:1px solid;}
+ span , img{float:left;margin:8px 5px 0 0;}
+  
+.upbar img{margin:12px 10px 0 10px;}
+
+
+ div.subl{float:left;background:none;width:100%;margin:0 0 6px 0;
+ }
+
+#lineTabs{
+	position:relative;
+	top:-10px;
+	height:30px;
+	list-style:none;
+	margin:0px auto;
+	padding:0px;
+	padding-right:30px;
+	padding-left:10px;
+	width:200px;
+}
+
+#lineTabs li{
+	display:block;
+	float:left;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	overflow:visible;
+	text-align:center;
+	width:90px;
+}
+#lineTabs li a{
+	
+	color:#8eb4e3;
+	display:block;
+	height:16px;
+	margin:0px -10px;
+	padding:7px 20px;
+	position:relative;
+	text-decoration:none;
+	width:90px;
+}
+#lineTabs li a.active{
+	background:#8eb4e3;
+	
+	color:white;
+	z-index:50;
+}
+#lineTabs li a:hover{
+	
+	background:#8eb4e3;
+	color:white;
+	z-index:30;
+}
+ .styled-select1 select{
+   background: transparent;;
+   width: 110px;
+   padding: 5px;
+   color:#8eb4e3;
+   font-style:italic;
+   line-height: 1;
+   border: 1px solid #06F;
+   border-radius: 0;
+   height: 28px;
+   -webkit-appearance: none;
+   }
+   
+  div.styled-select1{margin:0;display:block;left:15px;top:-28px;width:110px;
+	   position:relative;} 
+   .styled-select1 {
+	   
+  width:130px;height:23px;
+   overflow: hidden;
+   background:  transparent ;
+   
+   }
+  div.short {margin:0;display:block;width:100px; position:relative;top:-30px;float:right;}
+   .short img{margin:0 0 0 20px;float:right;}
+  
+/*контент*/
+
+.mainfield{
+			display:block;
+			background:#fff;
+			border:1px solid #e7e7e7;
+			 
+			float:left;
+			height:auto;
+			height:100%;
+			margin:-180px 0;
+			/overflow:auto;/*скролл*/
+			}
+
+div.content  {margin:10px;position:relative;}			
+
+div.post{width:100%;margin:0 ;height:auto;display:block;}
+img#divide{margin:10px  auto;position:relative;width:100%;}
+.pict img{margin:0 auto;}
+div.title{width:auto;margin:0;}
+.title span {color:#8eb4e3;font-weight:bold;height:auto;margin:0;}
+div.text{width:80%;height:60px;float:right;}
+.text span{width:auto;height:90px;min-height:90px;margin:0;font-size:auto;display:block;}
+ div.pupil{width:80px;height:14px;margin:0;float:left;position:relative;top:-10px;}
+.pupil span{position:relative;width:auto;margin:0;height:14px;color:#8eb4e3;}
+.pupil img{margin:0;}
+
+/*Photo*/
+
+
+
+
+
+
+
+/*blog*/
+
+/*---------------------------------------------------------------------------------*/
+
+/*боковое меню*/
+.twoColLiqLt #sidebar1 {
+	position:relative;
+	?left:-170px;
+	float:left;
+	?border:1px solid;
+	width: 170px; 
+	background: #fcfcfc; 
+	
+	
+}
+.twoColLiqLt #sidebar1{height:768px;float:left;position:relative;font-size:16px;}
+.twoColLiqLt #sidebar1 ul {float:left;padding-left:15px;margin:15px 0;}
+.twoColLiqLt #sidebar1 li {list-style:none;margin:0;float:left;}
+.twoColLiqLt #sidebar1 span {margin:0;}
+#sidebar1 li{height:55px;width:150px;}
+#sidebar1 span{float:left;margin-top:10px;position:relative;}
+#sidebar1 a{color:#8eb4e3;text-decoration:none;}
+#sidebar1 a:hover{color:#bcd588;}
+#sidebar1 img{height:40px;width:40px;margin:0;}
+#sidebar1 span{position:realtive;top:35px;right:10px;}
+span#comm{background:#ebebeb;top:15px;right:50px;float:left;color:#bbb;}
+span#comm1{background:#ebebeb;top:15px;right:45px;float:left;color:#bbb;}
+span#comm2{background:#ebebeb;top:15px;right:65px;float:left;color:#bbb;}
+
+.cp {cursor: pointer;}
+.cd {cursor: default;}
+
+/*---------------------------------- USER MESSAGES --------------------------------*/
+/*---------------------------------------------------------------------------------*/
+	div.confirmationMSG {border-radius:2px;width:99%;padding-top:10px;/*width:573px;*/min-height:28px;margin-bottom: 10px;display: inline-block; }
+	div.confirmationMSG.success{border:1px solid #6b90bf;color:#6b90bf;background: url(../img/ntrue.png) no-repeat #EFF4FF;background-position: 6px 6px;}
+	div.confirmationMSG.error{border:1px solid #d28b8d;color:#d28b8d;background: url(../img/nfalse.png) no-repeat #FFF4FF;background-position: 6px 6px;}
+	div.confirmationMSG.warning{border:1px solid #d28b8d;color:#d28b8d;background: url(../img/nwarning.png) no-repeat #FFF4FF;background-position: 6px 6px;}
+	div.confirmationMSG.info{border:1px solid #8D8D8D;color:#8D8D8D;background: url(../img/ninfo.png) no-repeat #f1f1f1;background-position: 6px 6px;}
+/*	.confirmationMSG.success span, .confirmationMSG.error span,
+		.confirmationMSG.warning span, .confirmationMSG.info span,
+		.confirmationMSG_n span {margin-bottom: 10px;display:block;}*/
+	.confirmationMSG.success span.title, .confirmationMSG.error span.title,
+		.confirmationMSG.warning span.title, .confirmationMSG.info span.title,
+		.confirmationMSG_n span.title {margin-bottom: 6px;display:block;padding: 0px 10px 0px 40px;}
+	
+	.confirmationMSG.success span.text, .confirmationMSG.error span.text,
+		.confirmationMSG.warning span.text, .confirmationMSG.info span.text,
+		.confirmationMSG_n span.text {margin-bottom: 10px;display:block;}
+
+	.confirmationMSG.success span.text , .confirmationMSG_n span.text , 
+	.confirmationMSG.error span.text , .confirmationMSG.warning span.text , 
+	.confirmationMSG.info span.text {margin-bottom: 10px;display:block;padding: 0px 10px 0px 60px;color: #b6b6b6;}

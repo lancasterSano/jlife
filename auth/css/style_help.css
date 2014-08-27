@@ -1,0 +1,46 @@
+.mainfield{
+	background:#fff;
+	border:1px solid #e7e7e7;
+	height:auto;
+}
+div.content  {margin:5px;position:relative;float:left;width:840px;}
+.content a{text-decoration:none;}
+
+div.contentHead{cursor:default;display: block;background: #8EB4E3;padding:5px 0;color:#e4e4e4;}
+	.contentHead span:first-child{margin-left:20px;}
+	.contentHead span{float: none;display: inline;color:#e4e4e4;font-weight: bold;margin:0 10px;}
+	.contentHead span.activePart{color: #fff;}
+
+div.seachforhelp{display: block;background: #fafafa;border-bottom:1px solid #e7e7e7	;margin-bottom:2px;padding:5px 15px;height:43px;}
+div.searchinput{display: inline-block;margin-top:8px;}
+	.searchinput input{width:350px;height:25px;vertical-align: top;border: 1px solid #b7b7b7;outline:none;padding:0 5px;color:#b7b7b7;font-style: italic;}
+	.searchinput img{float: none;height:25px;width: 25px;margin:0 0 0 5px;}
+div.searchRes{padding: 0 0px 10px 10px;cursor:default;}
+	.searchRes span{color: #8EB4E3;float: none;display: block;}
+
+
+div.hashtags{display: inline-block;float: right; width: 420px; margin-top: 5px;}
+	.hashtags span{float: right;margin: 0 0px 0 30px;font-size: 12px}
+div.oneline{margin-top:8px;}
+
+div.accordionContainer{padding:0 20px 10px 20px;}
+
+/*div.answer{margin-top:15px;}
+	.answer span{font-size: 14px;margin:0;float: none;}
+div.rollup , div.rolldown{height:18px; width:18px;display: inline-block;}
+.answerTtl span{display: inline-block;margin: 0 5px 0 0;font-weight: bold;vertical-align: top;}
+.rollup		{background: url(/img/rwn.png) no-repeat center;background-size: 100% 100%;}
+.rolldown	{background: url(/img/rwnu.png) no-repeat center;background-size: 100% 100%;}
+*/
+div.answerContent{/*padding-left: 50px;*/}
+	.answerContent img{float: none;display: block;margin:5px auto 0 auto;width:400px;height:100px;}
+div.oneline{height:20px;}
+	.answerContent .oneline span{float:right;font-size: 12px;display: inline;margin: 0 0 0 10px}
+/*text*/
+
+.answerContent span{float: none;display: block;margin: 15px 0 0 0;}
+.answerContent i , .answerContent b{display: block;margin-bottom: 15px;}
+/*span.text, span.textbold, span.textcursive{margin: 15px 0 0 0;}*/
+i.textimg{margin: 3px auto 15px auto;text-align: center;}
+.answerContent ol, .answerContent ul{margin: 0 0 15px 0;}
+

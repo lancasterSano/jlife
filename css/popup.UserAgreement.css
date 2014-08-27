@@ -1,0 +1,82 @@
+
+h3.headerDoc{width: 100%;text-align: center;display: inline-block;}
+h3.headerDoc h3 {margin: 5px 0px;}
+div.document{
+    margin: 10px 16px 10px 16px;
+    background-color: #fff;
+	/*display: inline-block;*/
+	/*padding: 10px 10px 0 10px;*/
+    /*margin-right:20px !important;*/
+    /*width: 905px;*/
+	/*overflow-y: scroll;*/
+	/*overflow-x: hidden;*/
+	/*height: 405px;*/
+	border: 1px solid #e7e7e7;
+}
+
+.document ol {
+     margin: 14px 20px 14px 0px;
+    list-style-position:outside; 
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 20px;
+	padding-left: 20px;
+}
+.document ol span{width: 100%;float: none;display: inline-block;}
+.document ol strong{width:100%;}
+.document ol b{width:98%;float:right;}
+.document ol>li {
+	-webkit-margin-before: 0.2em;
+	-webkit-margin-after: 0.5em;
+}
+.document ol>li{display:block;width: 100%; text-align: justify;}
+.document ol>li:before{content:counters(item,".") ". ";counter-increment:item;}
+.document ol{counter-reset:item;}
+.document h2{width: 100%;text-align: center;}
+.document li{list-style: disc;}
+ul.uniq{padding-left: 48px;}
+
+span.acptcnsl{color: #8eb4e3;cursor: pointer;margin:0 0 0px 0;text-align: center;width: 100%;}
+span:hover.acptcnsl{color: #7093bf;}
+
+!div.centerd{margin: 0 auto; display: table;}
+
+
+
+
+
+
+/*http://mainview.ru/programming/css/realistichnye-teni-pri-pomoshhi-css3-bez-ispolzovaniya-izobrazhenij*/
+/*.curved-hz-1 {
+    position:relative;
+    background:#fff;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+ 
+.curved-hz-1:before,
+.curved-hz-1:after {
+    content:"";
+    position:absolute;
+    z-index:-2;
+}
+ 
+.curved-hz-1:before, .curved-hz-1:after {
+    top:50%;
+    bottom:0px;
+    left:10px;
+    right:10px;
+    -webkit-box-shadow:0 0 15px rgba(0,0,0,0.6);
+       -moz-box-shadow:0 0 15px rgba(0,0,0,0.6);
+            box-shadow:0 0 15px rgba(0,0,0,0.6);
+    -moz-border-radius:100px / 10px;
+         border-radius:100px / 10px;
+}
+ 
+.curved-hz-1 p {
+    font-size:16px;
+    font-weight:bold;
+}   */     
+ 

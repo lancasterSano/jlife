@@ -1,0 +1,22 @@
+
+div.finnish{width:138px;float:left; margin: 0px 4px 0px 4px; text-align: left;}
+.displayMenu img, .finnish img{margin: 0 2px 0 0;float: right; width: 19px; height: 19px;}
+.finnish span{margin:0;width:130px;border: 1px solid #E7E7E7; float: left; padding: 2px 0px 2px 8px;color:#8eb4e3; cursor: pointer; font-weight: normal;}
+
+div.displayMenu{width:138px;position: absolute; left:0px;border: 1px solid #e7e7e7;background: #fff;float:left; z-index: 1000; text-align: left;}
+/*.displayMenu div{border: 0px;}*/
+/*.displayMenu a{float: left;width:92%;padding:3px 6px;}*/
+.displayMenu span.menuitem{margin: 0 2px 0 0;width:130px;border: 0px;float:left;padding: 2px 0px 2px 8px;color:#8eb4e3;cursor: pointer; font-weight: normal;}
+/*.displayMenu img{margin: 0 0px 0 0;float:right;}*/
+.displayMenu span:hover.menuitem{background: #8eb4e3; color:#fff; font-weight: normal;}
+div.displayMenu span.headermenu { 
+    margin: 0 2px 0 0;
+    width:130px;
+    border: 0px;
+    float:left;
+    padding: 2px 0px 2px 8px;
+    font-weight: normal; 
+    background: #e7e7e7; 
+    color:#b7b7b7; 
+    cursor: default;
+}

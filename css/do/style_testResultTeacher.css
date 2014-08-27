@@ -1,0 +1,204 @@
+print_r();exit();div.prev {
+float: left;
+background: url(../../img/rwb.png) no-repeat left center;
+background-size: 16px 16px;
+}
+.prev a {
+float: left;
+padding-left: 20px;
+}
+.next a {
+float: left;
+padding-right: 20px;
+}
+div.next {
+float: right;
+background: url(../../img/rwnu.png) no-repeat right center;
+background-size: 16px 16px;
+}
+div.next_prev {
+width: 100%;
+float: left;
+margin-top: 5px;
+padding-bottom: 5px;
+}
+
+td{vertical-align:top;}
+
+
+
+
+
+
+
+/*content*/
+
+div.subjects{   border-bottom: 1px solid #b7b7b7;
+                padding-bottom: 15px;
+                margin-bottom: 5px;
+                float:left;width:99%;
+                margin-top:5px;
+                padding-left: 1%;
+                padding-bottom: 5px;}
+                
+ul.sub{padding:0;margin: 0 ;list-style:disc inside;float: left;width:200px;}
+ul.sub li{color: #8eb4e3;float:left;width:100%;}
+.subjects div.subjttl span {float: none;cursor:default;}
+.subjects div.subjCont{margin:0 0px 0 10px; }
+.subjects div.subjCont span{margin:0 0 0 10px;color: #8eb4e3;cursor: pointer;float: none;}
+.subjects div.subjCont span:hover{color: #7093bf;}
+.subjects div.subjCont span.active{text-decoration: underline;color: #7093bf;}
+
+div.testInfo{margin: 10px 0 0 0;}
+.testInfo span{float: none;margin: 0;}
+div.paragraph{cursor: default;color: #8eb4e3;}
+.testInfo div.paragraph strong{font-weight: normal;color: #000;}
+.testInfo div.paragraph a{margin:0 0 0 5px;color: #8eb4e3;cursor: pointer;float: none;}
+.testInfo div.paragraph span:hover{color: #7093bf;}
+.testInfo div.paragraph span.active{text-decoration: underline;color: #7093bf;} 
+.testInfo div.parInfo strong{color: #b7b7b7;font-weight: normal;}
+.testInfo div.parInfo span{margin-left: 5px;}
+.testInfo table{width: 100%;border-top: 1px solid #b7b7b7;border-left: 1px solid #b7b7b7;
+        margin-top:5px;}
+.testInfo table thead td{text-align: center;color: #b7b7b7;vertical-align: middle;
+             padding: 5px 0;border-bottom: 1px solid #b7b7b7;
+             border-right: 1px solid #b7b7b7;}
+.testInfo table thead td.left{width: 30%;}
+.testInfo table tbody td{border-bottom: 1px solid #b7b7b7;width:73px;
+             border-right: 1px solid #b7b7b7;padding:2px 0 2px 5px;text-align: center;vertical-align: middle;}
+.testInfo table tbody td.left{text-align: left;vertical-align: top;}
+
+@media print {
+    .testInfo div.paragraph a{display:none;}
+    .testInfo div.paragraph{font-weight: normal;color: #000;}
+    .testInfo div.parInfo strong{font-weight:bolder;color: #000;}
+    .testInfo table{width: 100%;border-top: 1px solid #000;border-left: 1px solid #000;}
+     .testInfo table thead td {font-weight: bold;}
+    .testInfo table thead td , .testInfo table tbody td{color: #000;border-bottom: 1px solid #000;border-right: 1px solid #000;}
+   
+
+}
+
+
+
+
+.mainfield{
+			
+			background:#fff;
+			border:1px solid #e7e7e7;
+			height:auto;
+			}
+
+div.content  {margin:5px 10px;position:relative;float:left;width:830px;}
+.content a{text-decoration:none;}
+
+/*1-st menu*/
+ul.mesSend{float: left;padding:0;margin:0;}
+ul.mesSend li {list-style: none;display: inline;}
+ul.mesSend a{width:100px;padding:0 10px 0 10px;}
+ul.mesSend img{float: none;margin:0;height:9px;width:6px;}
+.next a:hover , .prev a:hover{
+color: #7093bf;
+}
+
+
+
+/* content*/
+
+div.grClass{float:left;border-bottom:1px solid #b7b7b7;width:100%;}
+
+div.grClassInfo{float:left;width:70%;}
+div.grClassName{float:left;width:100%;}
+.grClassName span{margin:0px 0px 0 10px;font-weight: bold;color:#000;}
+
+div.grClassOptions{float:left;width:100%;}
+.grClassOptions span{margin:0;}
+.grClassOptions a{margin:0 0 0 10px;}
+span.optvalue{margin:0px 0 0 10px;}
+
+div.grClassPhoto{float:left;width:30%;margin-bottom:5px;}
+.grClassPhoto img{margin:5px;width:149px;height:105px;float:right;}
+
+div.links{float:left;width:100%;border-bottom:1px solid #b7b7b7;margin-top:3px;}
+.links img{height:15px;width:15px;margin:0;}
+.links span{margin:0 0 0 3px;}
+.links a{float: left;margin:0 10px 3px 5px;}
+a.uRhere{color:#b7b7b7;}
+a.curSubj{float:right;margin-right:5px;}
+a.curSubj span{margin:0;}
+
+
+
+div.sortBy{float: left;margin-left: 5px;padding: 0px 0px 5px 0px;width:100%;}
+.sortBy span{margin: 0;float: right;color:#8eb4e3;cursor: pointer;margin-right: 5px;}
+.sortBy span:hover{color: #7093bf;}
+
+
+div.monthesCont{width:100%;float:left;}
+
+div.monthes{margin:0 auto;}
+.monthes a{min-width:69px;float:left;text-align: center;}
+
+div.magazine{width:100%;float:left;}
+table.magazine{float:left;border: 1px solid #b7b7b7;border-right:1px solid #b7b7b7;;table-layout: auto;}
+.magazine td{vertical-align: top;}
+td.leftAll{width:220px;}
+td.leftAll table{width:100%;}
+
+td.right{width:605px;overflow-x:scroll;overflow-y:hidden;display: block;!height:300px;foropera}
+
+td.tabHeader{ height: 40px;width:100%;border-bottom: 1px solid #b7b7b7;border-right: 1px solid #b7b7b7;vertical-align: middle;}
+.tabHeader span{width: 100%;margin: 0;text-align: center;color:#b7b7b7; }
+
+td.subGroup,td.subGroupD{width:100%;border-bottom: 1px solid #b7b7b7;height:24px;vertical-align: middle;}
+td.subGroupD{border-right:1px solid #b7b7b7;}
+.subGroup span,.subGroupD span{color: #b7b7b7;margin:0 0 0 5px;float: none;}
+
+td.student{border-bottom: 1px solid #b7b7b7;border-right: 1px solid #b7b7b7;height:24px;vertical-align: middle;}
+.student span{float: none;color: #000;margin-right: 5px;border-left:1px solid #b7b7b7; }
+.student a{margin: 0 3px 0 3px ;color:#000;float: none;}
+
+div.colsValues{float:left;height:100%;}
+td.headerItem{border: 1px solid #b7b7b7;border-left: none;border-top: none;height:40px; min-width:41px;/*ширина колонки*/ vertical-align:middle;text-align: center;color:#b7b7b7; }
+td.headerItemSingle{border: 1px solid #b7b7b7;border-left: none;border-top: none;vertical-align:middle;padding:0 3px;text-align: center;color:#b7b7b7; }
+.headerItem span , .headerItemSingle span {
+  cursor:pointer;
+                      -moz-transform: rotate(90deg); 
+                        -ms-transform: rotate(90deg);
+                        -webkit-transform: rotate(90deg); 
+                        -o-transform: rotate(90deg); 
+                        transform: rotate(90deg);color:#b7b7b7;width:20px;} 
+.abr span{margin: 12px 0 0 0px;}
+.def span{margin: -19px 0 0 0px;}  
+.end span{margin:-30px 0 0 0px;cursor:default;}                           
+
+
+/*opera hack*/
+noindex:-o-prefocus, td.right {
+  padding-bottom: 19px;
+}
+
+td.grMaster{border-bottom: 1px solid #b7b7b7;height:24px;vertical-align: middle;}
+.grMaster span{margin:0 0 0 70px;}
+.grMaster a{margin:0 0 0 10px;}
+
+div.colRow{width:100%;border-left: 1px solid #b7b7b7;float: left;}
+td.colItem{ vertical-align:middle;margin:0;height: 24px;min-width:50px;border:1px solid #b7b7b7;border-top: none;border-left: none;text-align: center;color:#000;cursor:pointer;}
+td.fuckTheBorderR{border-right:none;}
+td.isPressed , td:hover.isPressed{background: rgb(97, 148, 191);}
+
+
+.content a.actSubj , a.actParagraph , a.actMenu{
+text-decoration: underline;
+color: #7093bf;
+}
+.content a.actMon {
+text-decoration: underline;
+color: #7093bf;
+}
+.sub a:hover, .monthes a:hover{
+    color: #7093bf;
+}
+div.conformation {
+width: 828px;
+}

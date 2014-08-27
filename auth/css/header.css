@@ -1,0 +1,89 @@
+ div.menu{margin:0;height:30px;width:100%;display:inline-block;border-bottom:3px solid #8eb4e3;border-radius: 0 0 3px 3px;padding:0;background:#a6a6a6;}
+.twoColLiqLt .menu img{float:left;margin:10px 30px 0;height:50px;}
+
+div.menuitems{float:left;!width:410px;height:100%;}
+.menuitems ul{height:30px;margin:0;width:410px;padding:0;}
+.menuitems li{display:inline;
+		 float:left;
+		 list-style:none;
+		 margin:5px 25px 0 0;}
+.menuitems li:first-child{ margin-left:5px;}
+
+.menuitems a{ text-decoration:none;
+		 color: #fff;}
+.menuitems a:hover{text-decoration:none;
+		 color: #ccc;}	
+		
+		   
+		  .styled-select select{
+   background: transparent;
+   width: 168px;
+   padding: 5px;
+   color:#999;
+   font-style:italic;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 23px;
+   -webkit-appearance: none;
+   }
+   
+   .styled-select {
+	   margin-top:3px;
+	   float:left;
+  width:170px;height:23px;
+   overflow: hidden;
+   background: url(../img/arrowgrey.png) no-repeat 150px   #ddd;
+  
+   
+   
+   }
+   
+  .search{height:30px;display:block;margin:0;float:right;!width:420px;padding:0 15px 0 0;position: relative;}
+  div.selectImg{float:left;}
+  .menu .selectImg img{margin:5px 3px 0 3px;height:20px;width:20px;}
+  
+  div.login-logout{float:right;height:20px;margin:0 0 0 5px;}  
+  .login-logout span{margin:5px 0px 0px 10px;color:#fff;font-weight:bold;float:left;}
+  .login-logout a{margin-left: 10px;float: right;}
+  .twoColLiqLt .menu .login-logout img{margin: 0;width: 18px;height: 18px;}
+
+  div.menu div.search div#faqp, div.menu div.search div#faqp.n {
+    position: absolute;
+    display: block;
+    top: 38px;
+    right: 0;
+    width: 49px;
+    border-radius: 3px;
+    border: 1px solid #c6c6c6;
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+    z-index: 888;
+
+    height:76px;font-size: 55px;
+  }
+  #faqp a {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 100%;
+    color: #c6c6c6;
+  }
+
+  /*.faqp-big{}*/
+  .faqp-small{
+    height: 38px !important;
+    font-size: 29px !important;
+  }
+
+/*  div#faqp a span {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: xx-large;
+  }*/
